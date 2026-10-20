@@ -20,20 +20,35 @@
 <div class="media"><img class="poster" src="https://i.ytimg.com/vi/pCAbpxmxYc8/hqdefault.jpg" alt="" loading="eager"><div class="video" data-youtube="pCAbpxmxYc8" aria-hidden="true"></div><div class="video-caption">Isekaimania · Gameplay preview</div></div>
 <div class="info"><div class="subtitle">Explore another world</div><h2>Isekaimania - Overworld RPG</h2><p class="desc">Reincarnate into monsters and explore ever-changing isekai worlds in an offline single-player fantasy RPG.</p>
 <div class="actions"><a class="btn primary" href="https://play.google.com/store/apps/details?id=com.aubjective.isekaimania" target="_blank" rel="noopener noreferrer">Get the Game ↗</a><a class="btn" href="https://aubjective.github.io/isekaimania/" target="_blank" rel="noopener noreferrer">Game Wiki ↗</a></div>
-<div class="mini"><div class="minihead"><span>Events &amp; Announcements</span><a href="events/isekaimania.html">View all ↗</a></div><div class="eventline"><b id="isekai-event-title">Event schedule</b><small id="isekai-event-subtitle">No ongoing event confirmed yet.</small></div><div class="minihead"><span>Latest Update</span><a href="https://aubjective.github.io/isekaimania/wiki-version.html" target="_blank" rel="noopener noreferrer">Version Log ↗</a></div><div class="eventline"><b id="isekai-news-title">No recent update published</b><small id="isekai-news-subtitle">Game announcements and release notes will appear here.</small></div></div>
+<div class="mini"><div class="minihead"><span>Events &amp; Announcements</span><a href="events/isekaimania.html">View all ↗</a></div><div class="eventline"><b id="isekai-event-title">Event schedule</b><small id="isekai-event-subtitle">No ongoing event confirmed yet.</small></div><div class="minihead"><span>Latest Update</span><a href="https://aubjective.github.io/isekaimania/wiki-version.html" target="_blank" rel="noopener noreferrer">Version Log ↗</a></div><div class="eventline"><b id="isekai-news-title">Sheets v1.2.0 · Wiki v1.0</b><small id="isekai-news-subtitle">Reviewed 20 Oct 2026 · Core synchronization substantially complete; final verification ongoing.</small></div></div>
 </div></article>
 <article class="game" id="jobmania">
 <div class="media"><img class="poster" src="https://i.ytimg.com/vi/ogJL9jAcaDA/hqdefault.jpg" alt="" loading="lazy"><div class="video" data-youtube="ogJL9jAcaDA" aria-hidden="true"></div><div class="video-caption">Jobmania · Gameplay preview</div></div>
 <div class="info"><div class="subtitle">Descend into the dungeon</div><h2>Jobmania - Eternal Dungeon</h2><p class="desc">Build your team, craft distinctive jobs and journey through ever-changing dungeons with heroes, abilities and relics.</p>
 <div class="actions"><a class="btn primary" href="https://play.google.com/store/apps/details?id=com.aubjective.jobmania" target="_blank" rel="noopener noreferrer">Get the Game ↗</a><a class="btn" href="https://aubjective.github.io/jobmania/" target="_blank" rel="noopener noreferrer">Game Wiki ↗</a></div>
-<div class="mini"><div class="minihead"><span>Events &amp; Announcements</span><a href="events/jobmania.html">View all ↗</a></div><div class="eventline"><b id="job-event-title">Event schedule</b><small id="job-event-subtitle">No ongoing event confirmed yet.</small></div><div class="minihead"><span>Latest Update</span><a href="https://aubjective.github.io/jobmania/wiki-version.html" target="_blank" rel="noopener noreferrer">Version Log ↗</a></div><div class="eventline"><b id="job-news-title">Version 2.48.1</b><small id="job-news-subtitle">8 October 2026 · Fixes and new content</small></div></div>
+<div class="mini"><div class="minihead"><span>Events &amp; Announcements</span><a href="events/jobmania.html">View all ↗</a></div><div class="eventline"><b id="job-event-title">Event schedule</b><small id="job-event-subtitle">No ongoing event confirmed yet.</small></div><div class="minihead"><span>Latest Update</span><a href="https://aubjective.github.io/jobmania/wiki-version.html" target="_blank" rel="noopener noreferrer">Version Log ↗</a></div><div class="eventline"><b id="job-news-title">Sheets v2.48.1 · Wiki v1.0</b><small id="job-news-subtitle">Reviewed 18 Oct 2026 · Core data synchronized; documentation improvements ongoing.</small></div></div>
 </div></article>
 </div>
 </main>
 <footer><span>© <span id="year"></span> AUBJECTIVE TECHNOLOGY LTD. All rights reserved.</span><span><a href="about.html">About Us</a> · <a href="https://play.google.com/store/apps/dev?id=4996140693365022946" target="_blank" rel="noopener noreferrer">Google Play</a> · <a href="#top">Back to top ↑</a></span></footer>
 <script>
 document.getElementById('year').textContent=new Date().getFullYear();
-(async()=>{try{const r=await fetch('./data/announcements.json',{cache:'no-store'});if(!r.ok)return;const entries=await r.json();for(const [key,game] of [['isekai','isekaimania'],['job','jobmania']]){const e=entries.filter(x=>x.game===game&&x.date).sort((a,b)=>b.date.localeCompare(a.date))[0];if(e){document.getElementById(key+'-news-title').textContent=e.title;document.getElementById(key+'-news-subtitle').textContent=e.date+(e.description?' · '+e.description:'')}}}catch(e){}})();
+(async()=>{
+ const sources=[
+  ['isekai','isekaimania','https://raw.githubusercontent.com/Aubjective/isekaimania/main/data/version_log.json'],
+  ['job','jobmania','https://raw.githubusercontent.com/Aubjective/jobmania/main/data/version_log.json']
+ ];
+ await Promise.all(sources.map(async([key,game,url])=>{
+  try{
+   const response=await fetch(url,{cache:'no-store'});if(!response.ok)throw new Error('Version log not available');
+   const d=await response.json(),p=d.publicStatus||{},version=p.sheetsVersion||p.gameVersion||d.checkpoints?.latestSourceGameVersionObserved||'—';
+   const wiki=d.wikiVersion||'—',stamp=p.lastReviewed||p.asOf||'';
+   const title=document.getElementById(key+'-news-title'),desc=document.getElementById(key+'-news-subtitle');
+   title.textContent='Sheets v'+version+' · Wiki v'+wiki;
+   desc.textContent=(stamp?'Reviewed '+stamp+' · ':'')+(p.summary||'See the Wiki version log for details.');
+  }catch(error){console.info('Using last known '+game+' update summary.')}
+ }));
+})();
 const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 if(!reduce){
  const observer=new IntersectionObserver(entries=>{
