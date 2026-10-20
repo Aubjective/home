@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "game": "isekaimania",
+  "disclaimer": "Game sheet records; code redemption and event availability are not independently verified. Event-pool configuration without dates is not a live event.",
+  "entries": [
+    {
+      "id": "isekai-event-1",
+      "title": "The Raging Fire",
+      "sourceTitle": "TheRagingFire",
+      "type": "VesselEvent",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-30",
+      "featured": [
+        "Giant Cockatrice",
+        "Young Cockatrice",
+        "Egg Cockatrice",
+        "Peaceful Monkey"
+      ],
+      "eventPoint": "FireSeed",
+      "miniGame": "TreasureGrid",
+      "descriptionKey": null
+    },
+    {
+      "id": "isekai-event-2",
+      "title": "Moonlit Oath",
+      "sourceTitle": "MoonlitOath",
+      "type": "SoulEvent",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-30",
+      "featured": [
+        "Selina Valen"
+      ],
+      "eventPoint": "FireSeed",
+      "miniGame": "FortuneDoors",
+      "descriptionKey": null
+    },
+    {
+      "id": "isekai-event-3",
+      "title": "Forgemasters Trial",
+      "sourceTitle": "ForgemastersTrial",
+      "type": "JobEvent",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-30",
+      "featured": [
+        "Barbarian"
+      ],
+      "eventPoint": "FireSeed",
+      "miniGame": "TreasureGrid",
+      "descriptionKey": null
+    },
+    {
+      "id": "isekai-event-4",
+      "title": "Clash Of Convictions",
+      "sourceTitle": "ClashOfConvictions",
+      "type": "VesselEvent",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-25",
+      "featured": [
+        "Skeleton Knight Baron",
+        "Skeleton Mage Mabon"
+      ],
+      "eventPoint": "ConvictionShard",
+      "miniGame": "TreasureGrid",
+      "descriptionKey": "ClashOfConvictionsDescription"
+    }
+  ]
+}
