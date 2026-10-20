@@ -1,0 +1,2163 @@
+{
+  "schemaVersion": 1,
+  "game": "jobmania",
+  "disclaimer": "Game sheet records; code redemption and event availability are not independently verified. Event-pool configuration without dates is not a live event.",
+  "entries": [
+    {
+      "id": "job-code-1",
+      "code": "WishUGoodLuck",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "500"
+        },
+        {
+          "type": "Gold",
+          "value": "30000"
+        },
+        {
+          "type": "Material",
+          "value": "1"
+        },
+        {
+          "type": "Material",
+          "value": "4"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-2",
+      "code": "FEEDBGAM23",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "4000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-3",
+      "code": "SorrySillyBug",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "500"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-4",
+      "code": "BugBugEveryw",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-5",
+      "code": "PACkBUG2022",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "7000"
+        },
+        {
+          "type": "Gold",
+          "value": "300000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-6",
+      "code": "LuckLuckLuck",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1111"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-7",
+      "code": "GoldDigger",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Gold",
+          "value": "1000000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-8",
+      "code": "FreeBieBie",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Gold",
+          "value": "500000"
+        },
+        {
+          "type": "Essence",
+          "value": "150000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-9",
+      "code": "ShaKaCrystal",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "2024"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-10",
+      "code": "2020InHISTORY",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Gold",
+          "value": "500000"
+        },
+        {
+          "type": "Essence",
+          "value": "100000"
+        },
+        {
+          "type": "Crystal",
+          "value": "2500"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-11",
+      "code": "RANDReward",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "2500"
+        },
+        {
+          "type": "Essence",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-12",
+      "code": "ASDASDLN2",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "3000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-13",
+      "code": "LBFDCP55133",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "80"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-14",
+      "code": "LBWDSS21231",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "81"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-15",
+      "code": "LBADAL51142",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "82"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-16",
+      "code": "PRRUI912374",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "350"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-17",
+      "code": "PRWI339271",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "351"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-18",
+      "code": "PRBLAW0923",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "352"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-19",
+      "code": "PRGCS99928",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "353"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-20",
+      "code": "PRBLSC91293",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "354"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-21",
+      "code": "SPOOKYBEE",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "3000"
+        },
+        {
+          "type": "Essence",
+          "value": "50000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-22",
+      "code": "UNLOCK3DCDD",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "UnlockWarning",
+          "value": "1"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-23",
+      "code": "BIGEMUF823",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Essence",
+          "value": "1000000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-24",
+      "code": "SBCOMLK2",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "3000"
+        },
+        {
+          "type": "Character",
+          "value": "357"
+        },
+        {
+          "type": "Material",
+          "value": "32"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-25",
+      "code": "CRYSQ2KLF2",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "12500"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-26",
+      "code": "CRYAL32C9J2",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "25000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-27",
+      "code": "SGBCOMCDC",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "SpecialBoost",
+          "value": "1"
+        },
+        {
+          "type": "Crystal",
+          "value": "4000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-28",
+      "code": "C8CSJSKSA1",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "EventPoint",
+          "value": "5000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-29",
+      "code": "AASCSOOD2",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "EventPoint",
+          "value": "3500"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-30",
+      "code": "LBAKJL923172",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "39"
+        },
+        {
+          "type": "Essence",
+          "value": "100000"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-31",
+      "code": "LBFLAS54421",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "69"
+        },
+        {
+          "type": "Essence",
+          "value": "100000"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-32",
+      "code": "LBWDSS29981",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "286"
+        },
+        {
+          "type": "Essence",
+          "value": "100000"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-33",
+      "code": "LBOIUL512777",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "368"
+        },
+        {
+          "type": "Essence",
+          "value": "100000"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-34",
+      "code": "HALLOWMAS",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "EventPoint",
+          "value": "1050"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-35",
+      "code": "LXT884637",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "354"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-36",
+      "code": "AFOOL0401",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "467|468"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-37",
+      "code": "SUMMERBALL",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "RelicFrag",
+          "value": "66"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "66"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "66"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "66"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-38",
+      "code": "INCENMSAC2",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "20000"
+        },
+        {
+          "type": "Essence",
+          "value": "500000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "65"
+        },
+        {
+          "type": "Character",
+          "value": "454"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-39",
+      "code": "KKVDVJUASH",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "EventPoint",
+          "value": "3500"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-40",
+      "code": "LBDCS20W8CH1",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "385"
+        },
+        {
+          "type": "Essence",
+          "value": "100000"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-41",
+      "code": "LBCDDH23G2L9",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "415"
+        },
+        {
+          "type": "Essence",
+          "value": "100000"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-42",
+      "code": "LBHEMCB82JC2",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "486"
+        },
+        {
+          "type": "Essence",
+          "value": "100000"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-43",
+      "code": "LBDCLSKS82CA",
+      "expiryDate": "2030-01-01",
+      "releaseVersion": null,
+      "category": "longTerm",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "508"
+        },
+        {
+          "type": "Essence",
+          "value": "100000"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-44",
+      "code": "RVF2QW5eBfq",
+      "expiryDate": "2026-03-31",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "2000"
+        },
+        {
+          "type": "Character",
+          "value": "385"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-45",
+      "code": "RFFtWTjmtula",
+      "expiryDate": "2026-04-30",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "2000"
+        },
+        {
+          "type": "Character",
+          "value": "385"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-46",
+      "code": "RFFLdamAM1Aae",
+      "expiryDate": "2026-05-31",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "2000"
+        },
+        {
+          "type": "Character",
+          "value": "385"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-47",
+      "code": "R2FLfmly5o4c",
+      "expiryDate": "2026-06-30",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "2000"
+        },
+        {
+          "type": "Character",
+          "value": "385"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-48",
+      "code": "WELCOMEBACK25",
+      "expiryDate": "2026-03-31",
+      "releaseVersion": "2.33.0",
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "6000"
+        },
+        {
+          "type": "Essence",
+          "value": "500000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-49",
+      "code": "AGu3GN82uVF",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": "2.45.0",
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-50",
+      "code": "e0gnxofwgq1",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-51",
+      "code": "WWfBMCtWirK",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-52",
+      "code": "4PO4OcsGdCf",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-53",
+      "code": "dAzCHkw9NCS",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-54",
+      "code": "8fK7iK4MnPJ",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-55",
+      "code": "37q84KSDfFy",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-56",
+      "code": "YFyr05QIvd8",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-57",
+      "code": "K0pqCha6rcR",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-58",
+      "code": "T4xMpLlZkYb",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-59",
+      "code": "eBUOTwrQ8Cj",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-60",
+      "code": "5ncWWBx5wiK",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-61",
+      "code": "U7oxHgHa463",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-62",
+      "code": "siv6nm4DzdO",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-63",
+      "code": "a5HM9XNxIuA",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-64",
+      "code": "ZvJ2mDTULlq",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-65",
+      "code": "9vmTlq9Iozg",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-66",
+      "code": "ioR3pq3tEoH",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-67",
+      "code": "1rotG3AXTwQ",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-68",
+      "code": "PLT95V4QtwN",
+      "expiryDate": "2026-10-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-69",
+      "code": "zikjsgIHDcI",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-70",
+      "code": "kBVi12OPyNU",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-71",
+      "code": "5n9KeUpUE7X",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-72",
+      "code": "zEjwCYQfiCT",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-73",
+      "code": "UNt39hiIsa8",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-74",
+      "code": "aDJjumbIX3n",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-75",
+      "code": "R5oOLMRlgKF",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-76",
+      "code": "6BlgyLhIXDr",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-77",
+      "code": "HNsDegqYiyZ",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-78",
+      "code": "aCncnvq4tN1",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "CommonTicket",
+          "value": "10"
+        },
+        {
+          "type": "EpicTicket",
+          "value": "5"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-79",
+      "code": "Cy2k27JwcCn",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-80",
+      "code": "x8ufCNVg5ug",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-81",
+      "code": "nnowJ5bXueV",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-82",
+      "code": "njVYzIgkNDG",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-83",
+      "code": "nwpcCP9ReDk",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-84",
+      "code": "b4juDg1r1GK",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-85",
+      "code": "MxRdpr4gE5i",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-86",
+      "code": "mih156nXpzz",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-87",
+      "code": "6fLL0n8dED4",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-88",
+      "code": "2MNX6vYNnyL",
+      "expiryDate": "2026-11-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "15000"
+        },
+        {
+          "type": "RelicFrag",
+          "value": "-1"
+        },
+        {
+          "type": "Gold",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-89",
+      "code": "VoidConnect",
+      "expiryDate": "2026-06-05",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "EpicTicket",
+          "value": "10"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        },
+        {
+          "type": "Essence",
+          "value": "10000"
+        },
+        {
+          "type": "Gold",
+          "value": "15000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-90",
+      "code": "FIXMEBUE1",
+      "expiryDate": "2026-06-05",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "2000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-91",
+      "code": "ADRMEOI221",
+      "expiryDate": "2026-08-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "RemoveAds",
+          "value": "0"
+        },
+        {
+          "type": "Crystal",
+          "value": "1000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-92",
+      "code": "SPECUB2D",
+      "expiryDate": "2026-08-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "SpecialBoost",
+          "value": "0"
+        },
+        {
+          "type": "Crystal",
+          "value": "4000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-93",
+      "code": "SUMMER26",
+      "expiryDate": "2026-08-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "2000"
+        },
+        {
+          "type": "Essence",
+          "value": "100000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-94",
+      "code": "SBUFUB2D",
+      "expiryDate": "2026-08-01",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "EpicTicket",
+          "value": "10"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-95",
+      "code": "ALTERAS8CB2",
+      "expiryDate": "2026-07-24",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": "613"
+        },
+        {
+          "type": "Character",
+          "value": "613"
+        },
+        {
+          "type": "Character",
+          "value": "613"
+        },
+        {
+          "type": "Character",
+          "value": "613"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    },
+    {
+      "id": "job-code-96",
+      "code": "DUALORCS",
+      "expiryDate": "2026-09-14",
+      "releaseVersion": null,
+      "category": "promotion",
+      "rewards": [
+        {
+          "type": "Crystal",
+          "value": "2000"
+        },
+        {
+          "type": "Essence",
+          "value": "50000"
+        }
+      ],
+      "publication": "sheet-recorded",
+      "eventId": null
+    }
+  ]
+}
