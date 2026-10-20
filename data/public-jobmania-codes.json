@@ -1700,7 +1700,9 @@
         }
       ],
       "publication": "sheet-recorded",
-      "eventId": null
+      "eventId": null,
+      "published": false,
+      "hiddenReason": "Redemption availability unconfirmed"
     },
     {
       "id": "job-code-78",
@@ -1727,7 +1729,9 @@
         }
       ],
       "publication": "sheet-recorded",
-      "eventId": null
+      "eventId": null,
+      "published": false,
+      "hiddenReason": "Redemption availability unconfirmed"
     },
     {
       "id": "job-code-79",
@@ -1754,7 +1758,9 @@
         }
       ],
       "publication": "sheet-recorded",
-      "eventId": null
+      "eventId": null,
+      "published": false,
+      "hiddenReason": "Redemption availability unconfirmed"
     },
     {
       "id": "job-code-80",
@@ -1781,7 +1787,9 @@
         }
       ],
       "publication": "sheet-recorded",
-      "eventId": null
+      "eventId": null,
+      "published": false,
+      "hiddenReason": "Redemption availability unconfirmed"
     },
     {
       "id": "job-code-81",
