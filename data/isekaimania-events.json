@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "spreadsheetId": "1ZbQ6oPdS_x3lrI9RcIQ-Wf3Mm8KulFDtMqCAI01D4uI",
+    "sheetName": "GameEvents",
+    "sourceType": "scheduledEvents"
+  },
+  "notice": "Source records only. Dates and event associations must be verified before claiming live availability. Empty fields remain null; no codes are automatically endorsed for publication.",
+  "entries": [
+    {
+      "ID": "1",
+      "Title": "TheRagingFire",
+      "StartDate": "2026-09-21",
+      "ExpiryDate": "2026-09-30",
+      "Event Type": "VesselEvent",
+      "Content 1": "Giant Cockatrice",
+      "Content 2": "Young Cockatrice",
+      "Content 3": "Egg Cockatrice",
+      "Content 4": "Peaceful Monkey",
+      "Event Point": "FireSeed",
+      "Key Ids": "",
+      "Mini Game": "TreasureGrid",
+      "Description": null,
+      "DescriptionVariableKeys": null
+    },
+    {
+      "ID": "2",
+      "Title": "MoonlitOath",
+      "StartDate": "2026-09-21",
+      "ExpiryDate": "2026-09-30",
+      "Event Type": "SoulEvent",
+      "Content 1": "Selina Valen",
+      "Content 2": "",
+      "Content 3": "",
+      "Content 4": "",
+      "Event Point": "FireSeed",
+      "Key Ids": "",
+      "Mini Game": "FortuneDoors",
+      "Description": null,
+      "DescriptionVariableKeys": null
+    },
+    {
+      "ID": "3",
+      "Title": "ForgemastersTrial",
+      "StartDate": "2026-09-21",
+      "ExpiryDate": "2026-09-30",
+      "Event Type": "JobEvent",
+      "Content 1": "Barbarian",
+      "Content 2": "",
+      "Content 3": "",
+      "Content 4": "",
+      "Event Point": "FireSeed",
+      "Key Ids": "145-146-147",
+      "Mini Game": "TreasureGrid",
+      "Description": null,
+      "DescriptionVariableKeys": null
+    },
+    {
+      "ID": "4",
+      "Title": "ClashOfConvictions",
+      "StartDate": "2026-10-15",
+      "ExpiryDate": "2026-10-25",
+      "Event Type": "VesselEvent",
+      "Content 1": "Skeleton Knight Baron",
+      "Content 2": "Skeleton Mage Mabon",
+      "Content 3": "",
+      "Content 4": "",
+      "Event Point": "ConvictionShard",
+      "Key Ids": "324",
+      "Mini Game": "TreasureGrid",
+      "Description": "ClashOfConvictionsDescription",
+      "DescriptionVariableKeys": "Skeleton Mage Mabon-Skeleton Knight Baron"
+    }
+  ]
+}
