@@ -1,0 +1,2482 @@
+{
+  "schemaVersion": 1,
+  "source": "Jobmania Database / Characters (ID and Name)",
+  "entries": [
+    {
+      "id": "1",
+      "name": "Slime"
+    },
+    {
+      "id": "2",
+      "name": "Slimera"
+    },
+    {
+      "id": "3",
+      "name": "Slimega"
+    },
+    {
+      "id": "4",
+      "name": "Fire Slime"
+    },
+    {
+      "id": "5",
+      "name": "Fire Slimera"
+    },
+    {
+      "id": "6",
+      "name": "Fire Slimega"
+    },
+    {
+      "id": "7",
+      "name": "Ice Slime"
+    },
+    {
+      "id": "8",
+      "name": "Ice Slimera"
+    },
+    {
+      "id": "9",
+      "name": "Ice Slimega"
+    },
+    {
+      "id": "10",
+      "name": "Water Slime"
+    },
+    {
+      "id": "11",
+      "name": "Water Slimera"
+    },
+    {
+      "id": "12",
+      "name": "Water Slimega"
+    },
+    {
+      "id": "13",
+      "name": "Thunder Slime"
+    },
+    {
+      "id": "14",
+      "name": "Thunder Slimera"
+    },
+    {
+      "id": "15",
+      "name": "Thunder Slimega"
+    },
+    {
+      "id": "16",
+      "name": "Earth Slime"
+    },
+    {
+      "id": "17",
+      "name": "Earth Slimera"
+    },
+    {
+      "id": "18",
+      "name": "Earth Slimega"
+    },
+    {
+      "id": "19",
+      "name": "Wind Slime"
+    },
+    {
+      "id": "20",
+      "name": "Wind Slimera"
+    },
+    {
+      "id": "21",
+      "name": "Wind Slimega"
+    },
+    {
+      "id": "22",
+      "name": "Light Slime"
+    },
+    {
+      "id": "23",
+      "name": "Light Slimera"
+    },
+    {
+      "id": "24",
+      "name": "Light Slimega"
+    },
+    {
+      "id": "25",
+      "name": "Dark Slime"
+    },
+    {
+      "id": "26",
+      "name": "Dark Slimera"
+    },
+    {
+      "id": "27",
+      "name": "Dark Slimega"
+    },
+    {
+      "id": "28",
+      "name": "Slime Attacker"
+    },
+    {
+      "id": "29",
+      "name": "Slime Caster"
+    },
+    {
+      "id": "30",
+      "name": "Slime Defender"
+    },
+    {
+      "id": "31",
+      "name": "Slime Buffer"
+    },
+    {
+      "id": "32",
+      "name": "Slime Debuffer"
+    },
+    {
+      "id": "33",
+      "name": "Slime Healer"
+    },
+    {
+      "id": "34",
+      "name": "Honey Slime"
+    },
+    {
+      "id": "35",
+      "name": "Firefly Slime"
+    },
+    {
+      "id": "36",
+      "name": "Undead Slime"
+    },
+    {
+      "id": "37",
+      "name": "King Slime"
+    },
+    {
+      "id": "38",
+      "name": "Dream Slime AEkashics"
+    },
+    {
+      "id": "39",
+      "name": "The Original Slime Flynn"
+    },
+    {
+      "id": "40",
+      "name": "Rabbit Bandit"
+    },
+    {
+      "id": "41",
+      "name": "Rabbit Archer"
+    },
+    {
+      "id": "42",
+      "name": "Rabbit Knight"
+    },
+    {
+      "id": "43",
+      "name": "Kingdom Swordsman"
+    },
+    {
+      "id": "44",
+      "name": "Kingdom Lancer"
+    },
+    {
+      "id": "45",
+      "name": "Kingdom Axe Wielder"
+    },
+    {
+      "id": "46",
+      "name": "Kingdom Gunner"
+    },
+    {
+      "id": "47",
+      "name": "Kingdom Swordsman Elite"
+    },
+    {
+      "id": "48",
+      "name": "Kingdom Lancer Elite"
+    },
+    {
+      "id": "49",
+      "name": "Kingdom Axe Wielder Elite"
+    },
+    {
+      "id": "50",
+      "name": "Kingdom Gunner Elite"
+    },
+    {
+      "id": "51",
+      "name": "Kingdom Robot"
+    },
+    {
+      "id": "52",
+      "name": "Kingdom Tank"
+    },
+    {
+      "id": "53",
+      "name": "Kingdom Tank EX"
+    },
+    {
+      "id": "54",
+      "name": "Kingdom Cannon"
+    },
+    {
+      "id": "55",
+      "name": "Kingdom Airship"
+    },
+    {
+      "id": "56",
+      "name": "Duchess Jeanne"
+    },
+    {
+      "id": "57",
+      "name": "King Ansellus"
+    },
+    {
+      "id": "58",
+      "name": "Goblin Grunt"
+    },
+    {
+      "id": "59",
+      "name": "Goblin Archer"
+    },
+    {
+      "id": "60",
+      "name": "Goblin Mage"
+    },
+    {
+      "id": "61",
+      "name": "Goblin Raider"
+    },
+    {
+      "id": "62",
+      "name": "Goblin Elite"
+    },
+    {
+      "id": "63",
+      "name": "Goblin Defender"
+    },
+    {
+      "id": "64",
+      "name": "Goblin Reaper"
+    },
+    {
+      "id": "65",
+      "name": "Goblin Rider"
+    },
+    {
+      "id": "66",
+      "name": "Goblin Champion"
+    },
+    {
+      "id": "67",
+      "name": "Mecha Goblin"
+    },
+    {
+      "id": "68",
+      "name": "Nightbringer Goblin"
+    },
+    {
+      "id": "69",
+      "name": "Goblin King Glass"
+    },
+    {
+      "id": "70",
+      "name": "Gunblin Gibson"
+    },
+    {
+      "id": "71",
+      "name": "Gunblin Jackson"
+    },
+    {
+      "id": "72",
+      "name": "Gunblin Schecter"
+    },
+    {
+      "id": "73",
+      "name": "Orc Warrior"
+    },
+    {
+      "id": "74",
+      "name": "Orc Archer"
+    },
+    {
+      "id": "75",
+      "name": "Orc Warlock"
+    },
+    {
+      "id": "76",
+      "name": "Orc Axe Wielder"
+    },
+    {
+      "id": "77",
+      "name": "Orc War Drummer"
+    },
+    {
+      "id": "78",
+      "name": "Orc Chief Grunt"
+    },
+    {
+      "id": "79",
+      "name": "Orc King Grishnall"
+    },
+    {
+      "id": "80",
+      "name": "Gemstone Dragon Firaga"
+    },
+    {
+      "id": "81",
+      "name": "Gemstone Dragon Waterga"
+    },
+    {
+      "id": "82",
+      "name": "Gemstone Dragon Aeroga"
+    },
+    {
+      "id": "83",
+      "name": "Talking Madpill"
+    },
+    {
+      "id": "84",
+      "name": "Talking Medibros"
+    },
+    {
+      "id": "85",
+      "name": "Talking Madsule"
+    },
+    {
+      "id": "86",
+      "name": "Talking Driller"
+    },
+    {
+      "id": "87",
+      "name": "Talking Dorian"
+    },
+    {
+      "id": "88",
+      "name": "Talking YBox"
+    },
+    {
+      "id": "89",
+      "name": "Talking Fun Station"
+    },
+    {
+      "id": "90",
+      "name": "Talking Mintendo 3DS"
+    },
+    {
+      "id": "91",
+      "name": "Talking Mainframe"
+    },
+    {
+      "id": "92",
+      "name": "Ace of Spades"
+    },
+    {
+      "id": "93",
+      "name": "Ace of Hearts"
+    },
+    {
+      "id": "94",
+      "name": "Ace of Clubs"
+    },
+    {
+      "id": "95",
+      "name": "Ace of Diamonds"
+    },
+    {
+      "id": "96",
+      "name": "Chess Pawn W"
+    },
+    {
+      "id": "97",
+      "name": "Chess Pawn B"
+    },
+    {
+      "id": "98",
+      "name": "Chess Knight W"
+    },
+    {
+      "id": "99",
+      "name": "Chess Knight B"
+    },
+    {
+      "id": "100",
+      "name": "Chess Bishop W"
+    },
+    {
+      "id": "101",
+      "name": "Chess Bishop B"
+    },
+    {
+      "id": "102",
+      "name": "Chess Rook W"
+    },
+    {
+      "id": "103",
+      "name": "Chess Rook B"
+    },
+    {
+      "id": "104",
+      "name": "Chess Queen W"
+    },
+    {
+      "id": "105",
+      "name": "Chess Queen B"
+    },
+    {
+      "id": "106",
+      "name": "Chess King W"
+    },
+    {
+      "id": "107",
+      "name": "Chess King B"
+    },
+    {
+      "id": "108",
+      "name": "Arcane Crystal"
+    },
+    {
+      "id": "109",
+      "name": "Arcane Crystal EX"
+    },
+    {
+      "id": "110",
+      "name": "Arcane Orb Fire"
+    },
+    {
+      "id": "111",
+      "name": "Arcane Orb Water"
+    },
+    {
+      "id": "112",
+      "name": "Arcane Orb Thunder"
+    },
+    {
+      "id": "113",
+      "name": "Arcane Orb Wind"
+    },
+    {
+      "id": "114",
+      "name": "Arcane Orb Earth"
+    },
+    {
+      "id": "115",
+      "name": "Arcane Orb Light"
+    },
+    {
+      "id": "116",
+      "name": "Arcane Orb Dark"
+    },
+    {
+      "id": "117",
+      "name": "Fire Elemental"
+    },
+    {
+      "id": "118",
+      "name": "Ice Elemental"
+    },
+    {
+      "id": "119",
+      "name": "Thunder Elemental"
+    },
+    {
+      "id": "120",
+      "name": "Earth Elemental"
+    },
+    {
+      "id": "121",
+      "name": "Wind Elemental"
+    },
+    {
+      "id": "122",
+      "name": "Light Elemental"
+    },
+    {
+      "id": "123",
+      "name": "Dark Elemental"
+    },
+    {
+      "id": "124",
+      "name": "Fire Gemstone"
+    },
+    {
+      "id": "125",
+      "name": "Water Gemstone"
+    },
+    {
+      "id": "126",
+      "name": "Thunder Gemstone"
+    },
+    {
+      "id": "127",
+      "name": "Earth Gemstone"
+    },
+    {
+      "id": "128",
+      "name": "Wind Gemstone"
+    },
+    {
+      "id": "129",
+      "name": "Light Gemstone"
+    },
+    {
+      "id": "130",
+      "name": "Dark Gemstone"
+    },
+    {
+      "id": "131",
+      "name": "Hot Spirit Cat"
+    },
+    {
+      "id": "132",
+      "name": "Cold Spirit Cat"
+    },
+    {
+      "id": "133",
+      "name": "Night Spirit Cat"
+    },
+    {
+      "id": "134",
+      "name": "Fire Spirit Blazia"
+    },
+    {
+      "id": "135",
+      "name": "Wind Spirit Tempestia"
+    },
+    {
+      "id": "136",
+      "name": "Earth Spirit Tela"
+    },
+    {
+      "id": "137",
+      "name": "Ice Spirit Helida"
+    },
+    {
+      "id": "138",
+      "name": "Flame Butterfly"
+    },
+    {
+      "id": "139",
+      "name": "Liquid Butterfly"
+    },
+    {
+      "id": "140",
+      "name": "Lightning Butterfly"
+    },
+    {
+      "id": "141",
+      "name": "Nature Butterfly"
+    },
+    {
+      "id": "142",
+      "name": "Sand Butterfly"
+    },
+    {
+      "id": "143",
+      "name": "Mimic Rock"
+    },
+    {
+      "id": "144",
+      "name": "Mimic Chest"
+    },
+    {
+      "id": "145",
+      "name": "Mimic Book"
+    },
+    {
+      "id": "146",
+      "name": "Mimic Slime"
+    },
+    {
+      "id": "147",
+      "name": "Library Book Swarm"
+    },
+    {
+      "id": "148",
+      "name": "Library Book Keeper"
+    },
+    {
+      "id": "149",
+      "name": "Arcane Power Golem"
+    },
+    {
+      "id": "150",
+      "name": "Library Book Golem"
+    },
+    {
+      "id": "151",
+      "name": "Beach Turtle Golem"
+    },
+    {
+      "id": "152",
+      "name": "Slime Golem Blue"
+    },
+    {
+      "id": "153",
+      "name": "Slime Golem Red"
+    },
+    {
+      "id": "154",
+      "name": "Elemental Gemstone Golem"
+    },
+    {
+      "id": "155",
+      "name": "Earth Rock Golem"
+    },
+    {
+      "id": "156",
+      "name": "Wind Feathered Golem"
+    },
+    {
+      "id": "157",
+      "name": "Fire Volcanic Golem"
+    },
+    {
+      "id": "158",
+      "name": "Forest Wood Golem"
+    },
+    {
+      "id": "159",
+      "name": "Ice Frozen Golem"
+    },
+    {
+      "id": "160",
+      "name": "Jade Crystal Golem"
+    },
+    {
+      "id": "161",
+      "name": "Runic Sword Golem"
+    },
+    {
+      "id": "162",
+      "name": "Beach Stars"
+    },
+    {
+      "id": "163",
+      "name": "War Lobster"
+    },
+    {
+      "id": "164",
+      "name": "Pirate Monkey"
+    },
+    {
+      "id": "165",
+      "name": "Pirate Bandit"
+    },
+    {
+      "id": "166",
+      "name": "Pirate Skeleton"
+    },
+    {
+      "id": "167",
+      "name": "Pirate Magic Scimitar"
+    },
+    {
+      "id": "168",
+      "name": "Pirate Captain Jack"
+    },
+    {
+      "id": "169",
+      "name": "Little Snowball"
+    },
+    {
+      "id": "170",
+      "name": "Desert Cactus"
+    },
+    {
+      "id": "171",
+      "name": "Orb Angel"
+    },
+    {
+      "id": "172",
+      "name": "Darkness Flame"
+    },
+    {
+      "id": "173",
+      "name": "Volcano Sheep"
+    },
+    {
+      "id": "174",
+      "name": "Ice Spike"
+    },
+    {
+      "id": "175",
+      "name": "Mysterious One Eye"
+    },
+    {
+      "id": "176",
+      "name": "Gale"
+    },
+    {
+      "id": "177",
+      "name": "Leaf Imp"
+    },
+    {
+      "id": "178",
+      "name": "Furby"
+    },
+    {
+      "id": "179",
+      "name": "Luffby"
+    },
+    {
+      "id": "180",
+      "name": "Blazing Wolf"
+    },
+    {
+      "id": "181",
+      "name": "Electric Knife Puppet"
+    },
+    {
+      "id": "182",
+      "name": "Wind Fairy"
+    },
+    {
+      "id": "183",
+      "name": "Scholar Angel"
+    },
+    {
+      "id": "184",
+      "name": "Darkness Seeker"
+    },
+    {
+      "id": "185",
+      "name": "Fire Lion"
+    },
+    {
+      "id": "186",
+      "name": "Wind Lion"
+    },
+    {
+      "id": "187",
+      "name": "Earth Lion"
+    },
+    {
+      "id": "188",
+      "name": "Ice Lion"
+    },
+    {
+      "id": "189",
+      "name": "Hell Mantis"
+    },
+    {
+      "id": "190",
+      "name": "Wind Mantis"
+    },
+    {
+      "id": "191",
+      "name": "Ice Mantis"
+    },
+    {
+      "id": "192",
+      "name": "Screamer Mandrake"
+    },
+    {
+      "id": "193",
+      "name": "Screamer Mandrake EX"
+    },
+    {
+      "id": "194",
+      "name": "Cyber Slime"
+    },
+    {
+      "id": "195",
+      "name": "Cyber Hawk"
+    },
+    {
+      "id": "196",
+      "name": "Cyber Pegasus"
+    },
+    {
+      "id": "197",
+      "name": "Cyber Blader"
+    },
+    {
+      "id": "198",
+      "name": "Cybermancer Lix"
+    },
+    {
+      "id": "199",
+      "name": "Cyborg"
+    },
+    {
+      "id": "200",
+      "name": "Young Ground Dragon"
+    },
+    {
+      "id": "201",
+      "name": "Big Ground Dragon"
+    },
+    {
+      "id": "202",
+      "name": "Young Hellhound"
+    },
+    {
+      "id": "203",
+      "name": "Fiery Hellhound"
+    },
+    {
+      "id": "204",
+      "name": "Young Kitsune"
+    },
+    {
+      "id": "205",
+      "name": "Feral Kitsune"
+    },
+    {
+      "id": "206",
+      "name": "Fire Lava Worm"
+    },
+    {
+      "id": "207",
+      "name": "Lava Snakes Meltera"
+    },
+    {
+      "id": "208",
+      "name": "Cerberus"
+    },
+    {
+      "id": "209",
+      "name": "Harpy"
+    },
+    {
+      "id": "210",
+      "name": "Wind Avian"
+    },
+    {
+      "id": "211",
+      "name": "Wyvern"
+    },
+    {
+      "id": "212",
+      "name": "Magnets"
+    },
+    {
+      "id": "213",
+      "name": "Rock Lizard"
+    },
+    {
+      "id": "214",
+      "name": "Corrupted Stone Bear"
+    },
+    {
+      "id": "215",
+      "name": "Stone Gargoyle"
+    },
+    {
+      "id": "216",
+      "name": "Medusa"
+    },
+    {
+      "id": "217",
+      "name": "Ice Yeti"
+    },
+    {
+      "id": "218",
+      "name": "Ice Kindred Glacier"
+    },
+    {
+      "id": "219",
+      "name": "Mr Snowman"
+    },
+    {
+      "id": "220",
+      "name": "The Ice Maiden"
+    },
+    {
+      "id": "221",
+      "name": "Elf Crossbow Knight"
+    },
+    {
+      "id": "222",
+      "name": "Elf Sword Knight"
+    },
+    {
+      "id": "223",
+      "name": "Elf DualWield Knight"
+    },
+    {
+      "id": "224",
+      "name": "Elf Spear Knight"
+    },
+    {
+      "id": "225",
+      "name": "Elf Mage"
+    },
+    {
+      "id": "226",
+      "name": "Nature Linker Zelda"
+    },
+    {
+      "id": "227",
+      "name": "ErlKing"
+    },
+    {
+      "id": "228",
+      "name": "Devil Bat"
+    },
+    {
+      "id": "229",
+      "name": "Bull Lion Rumpedo"
+    },
+    {
+      "id": "230",
+      "name": "Werewolf"
+    },
+    {
+      "id": "231",
+      "name": "Vampire"
+    },
+    {
+      "id": "232",
+      "name": "Evil Witch Baba"
+    },
+    {
+      "id": "233",
+      "name": "Evil Majin Kuu"
+    },
+    {
+      "id": "234",
+      "name": "The Lonely Queen"
+    },
+    {
+      "id": "235",
+      "name": "Rogue Dagger Monk"
+    },
+    {
+      "id": "236",
+      "name": "Rogue Bastard Sword"
+    },
+    {
+      "id": "237",
+      "name": "Rogue Twin Dagger"
+    },
+    {
+      "id": "238",
+      "name": "Fat Bandit Hugo"
+    },
+    {
+      "id": "239",
+      "name": "Thin Bandit Carl"
+    },
+    {
+      "id": "240",
+      "name": "Bandit Prince Dylan"
+    },
+    {
+      "id": "241",
+      "name": "Underground Ruler Zax"
+    },
+    {
+      "id": "242",
+      "name": "Wolfbull Demon Goliath"
+    },
+    {
+      "id": "243",
+      "name": "Magma Dragon Banza"
+    },
+    {
+      "id": "244",
+      "name": "Six Wing Fairy Lix"
+    },
+    {
+      "id": "245",
+      "name": "Dragon Fairy Alteria"
+    },
+    {
+      "id": "246",
+      "name": "Spider Queen Jorogumo"
+    },
+    {
+      "id": "247",
+      "name": "Oberon"
+    },
+    {
+      "id": "248",
+      "name": "Dryad Warrior"
+    },
+    {
+      "id": "249",
+      "name": "Dryad Mage"
+    },
+    {
+      "id": "250",
+      "name": "Dryad Archer"
+    },
+    {
+      "id": "251",
+      "name": "Dryad Princess June"
+    },
+    {
+      "id": "252",
+      "name": "Dryad Queen Rafflesia"
+    },
+    {
+      "id": "253",
+      "name": "Forest Fairy Filia"
+    },
+    {
+      "id": "254",
+      "name": "Yggdrasil"
+    },
+    {
+      "id": "255",
+      "name": "Lightning Hornette"
+    },
+    {
+      "id": "256",
+      "name": "Chimera"
+    },
+    {
+      "id": "257",
+      "name": "Mecha Dragon Ladon"
+    },
+    {
+      "id": "258",
+      "name": "Mermaid Sasha"
+    },
+    {
+      "id": "259",
+      "name": "Mermaid Sion"
+    },
+    {
+      "id": "260",
+      "name": "Mermaid Arliette"
+    },
+    {
+      "id": "261",
+      "name": "Sea Calamity Urmica"
+    },
+    {
+      "id": "262",
+      "name": "Mermaid Princess Undine"
+    },
+    {
+      "id": "263",
+      "name": "Diamond Beast Meda"
+    },
+    {
+      "id": "264",
+      "name": "Light Wolf"
+    },
+    {
+      "id": "265",
+      "name": "Light Angel Maiden"
+    },
+    {
+      "id": "266",
+      "name": "Light Angel Knight"
+    },
+    {
+      "id": "267",
+      "name": "Light Angel Heavy Knight"
+    },
+    {
+      "id": "268",
+      "name": "Son Of Valhalla"
+    },
+    {
+      "id": "269",
+      "name": "Archangel Michael"
+    },
+    {
+      "id": "270",
+      "name": "Archangel Gabriel"
+    },
+    {
+      "id": "271",
+      "name": "Undead Walker"
+    },
+    {
+      "id": "272",
+      "name": "Undead Jiangshi"
+    },
+    {
+      "id": "273",
+      "name": "Headless Killer Dullahan"
+    },
+    {
+      "id": "274",
+      "name": "Skeleton Samurai Ryuma"
+    },
+    {
+      "id": "275",
+      "name": "Skeleton Dragon Dracolich"
+    },
+    {
+      "id": "276",
+      "name": "Ancient Automaton"
+    },
+    {
+      "id": "277",
+      "name": "Automaton X"
+    },
+    {
+      "id": "278",
+      "name": "Automaton Y"
+    },
+    {
+      "id": "279",
+      "name": "Automaton Z"
+    },
+    {
+      "id": "280",
+      "name": "Automaton XYZ"
+    },
+    {
+      "id": "281",
+      "name": "Rebel Berk"
+    },
+    {
+      "id": "282",
+      "name": "Rebel Sol"
+    },
+    {
+      "id": "283",
+      "name": "Rebel Cross"
+    },
+    {
+      "id": "284",
+      "name": "Rebel Tantalus"
+    },
+    {
+      "id": "285",
+      "name": "Rebel Isabella"
+    },
+    {
+      "id": "286",
+      "name": "Rebel Leader Barbarossa"
+    },
+    {
+      "id": "287",
+      "name": "Legendary Knight Serat"
+    },
+    {
+      "id": "288",
+      "name": "Legendary Knight Pizarro"
+    },
+    {
+      "id": "289",
+      "name": "Legendary Knight Regulus"
+    },
+    {
+      "id": "290",
+      "name": "Legendary Knight Arriette"
+    },
+    {
+      "id": "291",
+      "name": "Legendary Knight Sen"
+    },
+    {
+      "id": "292",
+      "name": "Legendary Knight Zidh"
+    },
+    {
+      "id": "293",
+      "name": "Great Summoner Dante"
+    },
+    {
+      "id": "294",
+      "name": "Legendary Knight Anakin"
+    },
+    {
+      "id": "295",
+      "name": "Legendary Knight Raziel"
+    },
+    {
+      "id": "296",
+      "name": "Legendary Knight King Archial"
+    },
+    {
+      "id": "297",
+      "name": "Fire Titan Ignis"
+    },
+    {
+      "id": "298",
+      "name": "Ice Titan Demeres"
+    },
+    {
+      "id": "299",
+      "name": "Thunder Titan Dynamo"
+    },
+    {
+      "id": "300",
+      "name": "Earth Titan Tellia"
+    },
+    {
+      "id": "301",
+      "name": "Wind Titan Ventoss"
+    },
+    {
+      "id": "302",
+      "name": "Light Titan Alfadriel"
+    },
+    {
+      "id": "303",
+      "name": "Dark Titan Ilnoct"
+    },
+    {
+      "id": "304",
+      "name": "Life Titan Aphylia"
+    },
+    {
+      "id": "305",
+      "name": "Siren"
+    },
+    {
+      "id": "306",
+      "name": "Simurgh"
+    },
+    {
+      "id": "307",
+      "name": "Phoenix"
+    },
+    {
+      "id": "308",
+      "name": "The Lich King"
+    },
+    {
+      "id": "309",
+      "name": "Leviathan"
+    },
+    {
+      "id": "310",
+      "name": "Huanglong"
+    },
+    {
+      "id": "311",
+      "name": "Ifrit"
+    },
+    {
+      "id": "312",
+      "name": "Shiva"
+    },
+    {
+      "id": "313",
+      "name": "Alicorn"
+    },
+    {
+      "id": "314",
+      "name": "Rukkha"
+    },
+    {
+      "id": "315",
+      "name": "Carbuncle"
+    },
+    {
+      "id": "316",
+      "name": "Bahamut"
+    },
+    {
+      "id": "317",
+      "name": "Behemoth"
+    },
+    {
+      "id": "318",
+      "name": "Odin"
+    },
+    {
+      "id": "319",
+      "name": "Death Thanatos"
+    },
+    {
+      "id": "320",
+      "name": "Xmas Tree"
+    },
+    {
+      "id": "321",
+      "name": "Xmas Gift Mimic"
+    },
+    {
+      "id": "322",
+      "name": "Xmas Toy Soldier S"
+    },
+    {
+      "id": "323",
+      "name": "Xmas Toy Soldier R"
+    },
+    {
+      "id": "324",
+      "name": "Xmas Ginger Golem"
+    },
+    {
+      "id": "325",
+      "name": "Xmas Ginger Bomberman"
+    },
+    {
+      "id": "326",
+      "name": "Xmas Penguin Pingu"
+    },
+    {
+      "id": "327",
+      "name": "Xmas Penguin Pinga"
+    },
+    {
+      "id": "328",
+      "name": "Xmas Goblin Sled"
+    },
+    {
+      "id": "329",
+      "name": "Egg Cockatrice"
+    },
+    {
+      "id": "330",
+      "name": "Young Cockatrice"
+    },
+    {
+      "id": "331",
+      "name": "Mad Cockatrice"
+    },
+    {
+      "id": "332",
+      "name": "The Bugmania King"
+    },
+    {
+      "id": "333",
+      "name": "Electroctopus"
+    },
+    {
+      "id": "334",
+      "name": "Nightbringer Slime"
+    },
+    {
+      "id": "335",
+      "name": "Vampiric Dragon"
+    },
+    {
+      "id": "336",
+      "name": "Young Feral Hunter"
+    },
+    {
+      "id": "337",
+      "name": "Mega Feral Hunter"
+    },
+    {
+      "id": "338",
+      "name": "Operation Saber"
+    },
+    {
+      "id": "339",
+      "name": "Operation Shooter"
+    },
+    {
+      "id": "340",
+      "name": "Operation Scout"
+    },
+    {
+      "id": "341",
+      "name": "Operation Assault"
+    },
+    {
+      "id": "342",
+      "name": "Operation Big"
+    },
+    {
+      "id": "343",
+      "name": "Space Ranger Kalmulon"
+    },
+    {
+      "id": "344",
+      "name": "Symbiote Agony"
+    },
+    {
+      "id": "345",
+      "name": "Symbiote Carnage"
+    },
+    {
+      "id": "346",
+      "name": "Symbiote Phage"
+    },
+    {
+      "id": "347",
+      "name": "Iron Embodiment"
+    },
+    {
+      "id": "348",
+      "name": "Brimstone Embodiment"
+    },
+    {
+      "id": "349",
+      "name": "Nightbringer Reaper"
+    },
+    {
+      "id": "350",
+      "name": "Red Ranger"
+    },
+    {
+      "id": "351",
+      "name": "White Ranger"
+    },
+    {
+      "id": "352",
+      "name": "Black Ranger"
+    },
+    {
+      "id": "353",
+      "name": "Green Ranger"
+    },
+    {
+      "id": "354",
+      "name": "Blue Ranger"
+    },
+    {
+      "id": "355",
+      "name": "Ultimate Dracozord"
+    },
+    {
+      "id": "356",
+      "name": "Nerscylla"
+    },
+    {
+      "id": "357",
+      "name": "Sin Hunter Nis"
+    },
+    {
+      "id": "358",
+      "name": "Wingless Dragon"
+    },
+    {
+      "id": "359",
+      "name": "Nanjo"
+    },
+    {
+      "id": "360",
+      "name": "BN Egg Slime"
+    },
+    {
+      "id": "361",
+      "name": "BN Bread Loaf"
+    },
+    {
+      "id": "362",
+      "name": "BN Bacon"
+    },
+    {
+      "id": "363",
+      "name": "Midas"
+    },
+    {
+      "id": "364",
+      "name": "Tentacle Fish"
+    },
+    {
+      "id": "365",
+      "name": "Proud Peacock"
+    },
+    {
+      "id": "366",
+      "name": "Sloppy Snail"
+    },
+    {
+      "id": "367",
+      "name": "Mutant Creature"
+    },
+    {
+      "id": "368",
+      "name": "Dwarves Berserker"
+    },
+    {
+      "id": "369",
+      "name": "Pride"
+    },
+    {
+      "id": "370",
+      "name": "Greed"
+    },
+    {
+      "id": "371",
+      "name": "Envy"
+    },
+    {
+      "id": "372",
+      "name": "Lust"
+    },
+    {
+      "id": "373",
+      "name": "Sloth"
+    },
+    {
+      "id": "374",
+      "name": "Gluttony"
+    },
+    {
+      "id": "375",
+      "name": "Wrath"
+    },
+    {
+      "id": "376",
+      "name": "Voidoll"
+    },
+    {
+      "id": "377",
+      "name": "Voidolli"
+    },
+    {
+      "id": "378",
+      "name": "Voidolla"
+    },
+    {
+      "id": "379",
+      "name": "Anonymous Murderer"
+    },
+    {
+      "id": "380",
+      "name": "Anonymous Cannibal"
+    },
+    {
+      "id": "381",
+      "name": "Anonymous Trickster"
+    },
+    {
+      "id": "382",
+      "name": "Slimey"
+    },
+    {
+      "id": "383",
+      "name": "Kash The Cow"
+    },
+    {
+      "id": "384",
+      "name": "Crimson Knight Oppaimon"
+    },
+    {
+      "id": "385",
+      "name": "Dragon Coder Sapphire"
+    },
+    {
+      "id": "386",
+      "name": "Silver Sentinel Burt"
+    },
+    {
+      "id": "387",
+      "name": "Succubus Alu"
+    },
+    {
+      "id": "388",
+      "name": "Demon Eyes LXT"
+    },
+    {
+      "id": "389",
+      "name": "Dragon Slayer Shaggy"
+    },
+    {
+      "id": "390",
+      "name": "Zantetsuken Axel"
+    },
+    {
+      "id": "391",
+      "name": "Queen Slime Bot"
+    },
+    {
+      "id": "392",
+      "name": "Bone Rat Warrior"
+    },
+    {
+      "id": "393",
+      "name": "Fork Rat Warrior"
+    },
+    {
+      "id": "394",
+      "name": "News Rat Warrior"
+    },
+    {
+      "id": "395",
+      "name": "Hawk Cobra Ada"
+    },
+    {
+      "id": "396",
+      "name": "Witch Hunter Misa"
+    },
+    {
+      "id": "397",
+      "name": "Witch Hunter Layton"
+    },
+    {
+      "id": "398",
+      "name": "Witch Hunter Barret"
+    },
+    {
+      "id": "399",
+      "name": "Undead Queen Duessa"
+    },
+    {
+      "id": "400",
+      "name": "Job Engineer"
+    },
+    {
+      "id": "401",
+      "name": "Ability Engineer"
+    },
+    {
+      "id": "402",
+      "name": "Legendary Knight Dante"
+    },
+    {
+      "id": "403",
+      "name": "Lord Virgel"
+    },
+    {
+      "id": "404",
+      "name": "Knight Captain Naharl"
+    },
+    {
+      "id": "405",
+      "name": "Princess Alice"
+    },
+    {
+      "id": "406",
+      "name": "Mimic Chest EX"
+    },
+    {
+      "id": "407",
+      "name": "Mimic Chest Demon"
+    },
+    {
+      "id": "408",
+      "name": "Smart Monkey"
+    },
+    {
+      "id": "409",
+      "name": "Monkey King Sun Wukong"
+    },
+    {
+      "id": "410",
+      "name": "Sea Drake King Ao Guang"
+    },
+    {
+      "id": "411",
+      "name": "ErLangShen Yang Jian"
+    },
+    {
+      "id": "412",
+      "name": "Phantom Blade QWER"
+    },
+    {
+      "id": "413",
+      "name": "Backstreet Idol Hui Men"
+    },
+    {
+      "id": "414",
+      "name": "Avenger Ogre Hindin"
+    },
+    {
+      "id": "415",
+      "name": "Celestial Dekay"
+    },
+    {
+      "id": "416",
+      "name": "Bloodthirst Magic Rabbit"
+    },
+    {
+      "id": "417",
+      "name": "Enforcer FTPolice"
+    },
+    {
+      "id": "418",
+      "name": "Tea Party Evilshroom"
+    },
+    {
+      "id": "419",
+      "name": "Bull Demon King"
+    },
+    {
+      "id": "420",
+      "name": "Princess Iron Fan"
+    },
+    {
+      "id": "421",
+      "name": "Loan Shark Salerno"
+    },
+    {
+      "id": "422",
+      "name": "Halloween Lick O Wisp"
+    },
+    {
+      "id": "423",
+      "name": "Halloween Pumpkin Slime"
+    },
+    {
+      "id": "424",
+      "name": "Halloween Skeleton"
+    },
+    {
+      "id": "425",
+      "name": "Halloween Pumpkin Chariot"
+    },
+    {
+      "id": "426",
+      "name": "Halloween Spooky Spirit"
+    },
+    {
+      "id": "427",
+      "name": "Halloween Stein MK1"
+    },
+    {
+      "id": "428",
+      "name": "Halloween Stein MK2"
+    },
+    {
+      "id": "429",
+      "name": "Halloween Witch Circe"
+    },
+    {
+      "id": "430",
+      "name": "Halloween Mage Blair"
+    },
+    {
+      "id": "431",
+      "name": "Halloween Sussy Gentleman"
+    },
+    {
+      "id": "432",
+      "name": "Chris P. Bakon"
+    },
+    {
+      "id": "433",
+      "name": "Gluttonous Dragon Nidhogg"
+    },
+    {
+      "id": "434",
+      "name": "Zodiac Maiden Aries"
+    },
+    {
+      "id": "435",
+      "name": "Zodiac Maiden Libra"
+    },
+    {
+      "id": "436",
+      "name": "Zodiac Maiden Taurus"
+    },
+    {
+      "id": "437",
+      "name": "Zodiac Maiden Scorpio"
+    },
+    {
+      "id": "438",
+      "name": "Zodiac Maiden Gemini"
+    },
+    {
+      "id": "439",
+      "name": "Zodiac Maiden Saggitarius"
+    },
+    {
+      "id": "440",
+      "name": "Zodiac Maiden Cancer"
+    },
+    {
+      "id": "441",
+      "name": "Zodiac Maiden Capricorn"
+    },
+    {
+      "id": "442",
+      "name": "Zodiac Maiden Leo"
+    },
+    {
+      "id": "443",
+      "name": "Zodiac Maiden Aquarius"
+    },
+    {
+      "id": "444",
+      "name": "Zodiac Maiden Virgo"
+    },
+    {
+      "id": "445",
+      "name": "Zodiac Maiden Pisces"
+    },
+    {
+      "id": "446",
+      "name": "Potion Seller Krouchy"
+    },
+    {
+      "id": "447",
+      "name": "Merchant Alyssa"
+    },
+    {
+      "id": "448",
+      "name": "Xmas Reindeer"
+    },
+    {
+      "id": "449",
+      "name": "Xmas Penguin Pingg"
+    },
+    {
+      "id": "450",
+      "name": "Xmas Punisher Claus"
+    },
+    {
+      "id": "451",
+      "name": "Xmas Santa Krampus"
+    },
+    {
+      "id": "452",
+      "name": "Xmas Pepe Crinch"
+    },
+    {
+      "id": "453",
+      "name": "Buddhist Monk Tang Sanzang"
+    },
+    {
+      "id": "454",
+      "name": "Nian Beast"
+    },
+    {
+      "id": "455",
+      "name": "Sheng Xiao Tiger"
+    },
+    {
+      "id": "456",
+      "name": "Stylish Duelist Ace"
+    },
+    {
+      "id": "457",
+      "name": "Hui Men Crusader Soul"
+    },
+    {
+      "id": "458",
+      "name": "Kobold Emperor Sabit"
+    },
+    {
+      "id": "459",
+      "name": "Mobile Gambler League"
+    },
+    {
+      "id": "460",
+      "name": "Suishin Ryu Successor Lau"
+    },
+    {
+      "id": "461",
+      "name": "Wandering Soul UX"
+    },
+    {
+      "id": "462",
+      "name": "Mad Doctor Jeff"
+    },
+    {
+      "id": "463",
+      "name": "Zodiac Maiden Ophiuchus"
+    },
+    {
+      "id": "464",
+      "name": "Rabbit Wizard"
+    },
+    {
+      "id": "465",
+      "name": "Vampwolf Corvin"
+    },
+    {
+      "id": "466",
+      "name": "Mercenary Cloud"
+    },
+    {
+      "id": "467",
+      "name": "LokiQ"
+    },
+    {
+      "id": "468",
+      "name": "ErisQ"
+    },
+    {
+      "id": "469",
+      "name": "Goblin Flag Bearer"
+    },
+    {
+      "id": "470",
+      "name": "Goblin Sorcerer"
+    },
+    {
+      "id": "471",
+      "name": "Goblin Commander Dong"
+    },
+    {
+      "id": "472",
+      "name": "Punk Goblin Kabuta"
+    },
+    {
+      "id": "473",
+      "name": "Goblin Slayer Kagyu"
+    },
+    {
+      "id": "474",
+      "name": "Halloween Ghost"
+    },
+    {
+      "id": "475",
+      "name": "Halloween Chimbus"
+    },
+    {
+      "id": "476",
+      "name": "Halloween White Lady Idi"
+    },
+    {
+      "id": "477",
+      "name": "Halloween Guillotine Wilhelm"
+    },
+    {
+      "id": "478",
+      "name": "Hero Of Blaze Jason"
+    },
+    {
+      "id": "479",
+      "name": "Hero Of Frost Jen"
+    },
+    {
+      "id": "480",
+      "name": "Hero Of Lightning Max"
+    },
+    {
+      "id": "481",
+      "name": "Hero Of Terra Shayla"
+    },
+    {
+      "id": "482",
+      "name": "Hero Of Gale Velma"
+    },
+    {
+      "id": "483",
+      "name": "Demon Lord Aatrox"
+    },
+    {
+      "id": "484",
+      "name": "RGB Slimes Woter"
+    },
+    {
+      "id": "485",
+      "name": "Apostle Of Eros Ricardo"
+    },
+    {
+      "id": "486",
+      "name": "Hui Men Executor Miss Caty Ball"
+    },
+    {
+      "id": "487",
+      "name": "Xmas Bear Ted Calm"
+    },
+    {
+      "id": "488",
+      "name": "Xmas Bear Ted Rage"
+    },
+    {
+      "id": "489",
+      "name": "Xmas Snow Sage Riezfeld"
+    },
+    {
+      "id": "490",
+      "name": "Xmas Hunter Warrior Callon"
+    },
+    {
+      "id": "491",
+      "name": "Lightning Hornette Queen"
+    },
+    {
+      "id": "492",
+      "name": "Dwarves Steamborg M Armor"
+    },
+    {
+      "id": "493",
+      "name": "Dwarves Steamborg M Sniper"
+    },
+    {
+      "id": "494",
+      "name": "Axe Dwarves Sensei Dermar"
+    },
+    {
+      "id": "495",
+      "name": "Dwarves Excavator Kuzzur"
+    },
+    {
+      "id": "496",
+      "name": "Dwarves Paladin Damon"
+    },
+    {
+      "id": "497",
+      "name": "Sheng Xiao Rabbit"
+    },
+    {
+      "id": "498",
+      "name": "Mysterious Cosmic Fox"
+    },
+    {
+      "id": "499",
+      "name": "Space Monster Khronos"
+    },
+    {
+      "id": "500",
+      "name": "Magica Girl Goblin"
+    },
+    {
+      "id": "501",
+      "name": "Magica Girl Shaggette"
+    },
+    {
+      "id": "502",
+      "name": "Young Kobold Rogue"
+    },
+    {
+      "id": "503",
+      "name": "Young Kobold Mage"
+    },
+    {
+      "id": "504",
+      "name": "Young Kobold Spear Thrower"
+    },
+    {
+      "id": "505",
+      "name": "Kobold Brawler"
+    },
+    {
+      "id": "506",
+      "name": "Kobold Warrior"
+    },
+    {
+      "id": "507",
+      "name": "Kobold Archer"
+    },
+    {
+      "id": "508",
+      "name": "Dragon Of Crystal Lernaean"
+    },
+    {
+      "id": "509",
+      "name": "Dragon Of Twin Thunder Tcharg"
+    },
+    {
+      "id": "510",
+      "name": "Dragon Of Terror Rhaegal"
+    },
+    {
+      "id": "511",
+      "name": "Queen Of Dragons Daenerys"
+    },
+    {
+      "id": "512",
+      "name": "Thunder Spirit Sundra"
+    },
+    {
+      "id": "513",
+      "name": "Easter Egg Orange"
+    },
+    {
+      "id": "514",
+      "name": "Easter Egg Blue"
+    },
+    {
+      "id": "515",
+      "name": "Easter Egg Yellow"
+    },
+    {
+      "id": "516",
+      "name": "Easter Egg Brown"
+    },
+    {
+      "id": "517",
+      "name": "Easter Egg Cyan"
+    },
+    {
+      "id": "518",
+      "name": "Easter Flower Red"
+    },
+    {
+      "id": "519",
+      "name": "Easter Flower Green"
+    },
+    {
+      "id": "520",
+      "name": "Easter Flower Purple"
+    },
+    {
+      "id": "521",
+      "name": "Easter Flower White"
+    },
+    {
+      "id": "522",
+      "name": "Easter Stealer Judas"
+    },
+    {
+      "id": "523",
+      "name": "Goddess Of Easter Ostara"
+    },
+    {
+      "id": "524",
+      "name": "Cyber Evil Maid Shae"
+    },
+    {
+      "id": "525",
+      "name": "Flame Evil Maid Rose"
+    },
+    {
+      "id": "526",
+      "name": "Lightning Evil Maid Elise"
+    },
+    {
+      "id": "527",
+      "name": "Super Evil Genius Dexter"
+    },
+    {
+      "id": "528",
+      "name": "Legacy Mecha Girl Eddy"
+    },
+    {
+      "id": "529",
+      "name": "Shield of Babel Valtos"
+    },
+    {
+      "id": "530",
+      "name": "Misfortune Lich Wan Wan"
+    },
+    {
+      "id": "531",
+      "name": "Time Imprisoner 04"
+    },
+    {
+      "id": "532",
+      "name": "Ancient Stone Guardian Lai"
+    },
+    {
+      "id": "533",
+      "name": "Druid of Rot fR0z"
+    },
+    {
+      "id": "534",
+      "name": "Zhubajie The Fool"
+    },
+    {
+      "id": "535",
+      "name": "Thunder Lord Oni Brinith"
+    },
+    {
+      "id": "536",
+      "name": "Summer Evil Star"
+    },
+    {
+      "id": "537",
+      "name": "Summer Burning Slime"
+    },
+    {
+      "id": "538",
+      "name": "Summer Sea Pelican"
+    },
+    {
+      "id": "539",
+      "name": "Summer Mermaid"
+    },
+    {
+      "id": "540",
+      "name": "Summer Merman"
+    },
+    {
+      "id": "541",
+      "name": "Summer Flare Baetylus"
+    },
+    {
+      "id": "542",
+      "name": "Summer Princess Kagura"
+    },
+    {
+      "id": "543",
+      "name": "Enslaved Wraith"
+    },
+    {
+      "id": "544",
+      "name": "Eerie Ghost Sadako"
+    },
+    {
+      "id": "545",
+      "name": "Magic Sword Laevateinn"
+    },
+    {
+      "id": "546",
+      "name": "Bilaterus the Platypus"
+    },
+    {
+      "id": "547",
+      "name": "Pyjama Cat Elvarette"
+    },
+    {
+      "id": "548",
+      "name": "Halloween Ronin Cheems"
+    },
+    {
+      "id": "549",
+      "name": "Immortal Snail"
+    },
+    {
+      "id": "550",
+      "name": "Xmas Imp Baddeus"
+    },
+    {
+      "id": "551",
+      "name": "Xmas Yeti Bjorn"
+    },
+    {
+      "id": "552",
+      "name": "Xmas Sylph Winterlily"
+    },
+    {
+      "id": "553",
+      "name": "Samadhi Fire Red Boy"
+    },
+    {
+      "id": "554",
+      "name": "Sheng Xiao Dragon"
+    },
+    {
+      "id": "555",
+      "name": "Super Hero Dynamax"
+    },
+    {
+      "id": "556",
+      "name": "Super Hero Atom Girl"
+    },
+    {
+      "id": "557",
+      "name": "Easter Miss Hatterly"
+    },
+    {
+      "id": "558",
+      "name": "Rennisa Avatar Of Sin"
+    },
+    {
+      "id": "559",
+      "name": "Summer Tentacle Dragon Calthu"
+    },
+    {
+      "id": "560",
+      "name": "Summer Sylph Soleia"
+    },
+    {
+      "id": "561",
+      "name": "Memoneon Sovereign Of Misadventure"
+    },
+    {
+      "id": "562",
+      "name": "Kasa Obake"
+    },
+    {
+      "id": "563",
+      "name": "Aztec Priest Jatziri"
+    },
+    {
+      "id": "564",
+      "name": "Aztec Warrior Necalli"
+    },
+    {
+      "id": "565",
+      "name": "Aztec Beast Jaguar"
+    },
+    {
+      "id": "568",
+      "name": "Cursed Head Cumacanga"
+    },
+    {
+      "id": "566",
+      "name": "Infamous Barber Kamikiri"
+    },
+    {
+      "id": "567",
+      "name": "Cucumber Thief Kappa"
+    },
+    {
+      "id": "569",
+      "name": "Red Oni Benimaru"
+    },
+    {
+      "id": "570",
+      "name": "Blue Oni Souei"
+    },
+    {
+      "id": "571",
+      "name": "Dark Eater Capelobo"
+    },
+    {
+      "id": "572",
+      "name": "Thunder God Tupa"
+    },
+    {
+      "id": "573",
+      "name": "Cyber Terminator Dragon Xeno"
+    },
+    {
+      "id": "574",
+      "name": "Immortal Slime Dragon Quolot"
+    },
+    {
+      "id": "575",
+      "name": "Halloween Cube Rubruxis"
+    },
+    {
+      "id": "576",
+      "name": "Halloween Sylph Velvet"
+    },
+    {
+      "id": "577",
+      "name": "Halloween Spider Witch Selina"
+    },
+    {
+      "id": "578",
+      "name": "Curtis The Handsome Chef"
+    },
+    {
+      "id": "579",
+      "name": "Xmas Ginger Duelist"
+    },
+    {
+      "id": "580",
+      "name": "Xmas Sweettooth Elf Xidrin"
+    },
+    {
+      "id": "581",
+      "name": "The Alligator Witch Cuca"
+    },
+    {
+      "id": "582",
+      "name": "Sheng Xiao Snake"
+    },
+    {
+      "id": "583",
+      "name": "Lantern Sylph Hong Yan"
+    },
+    {
+      "id": "584",
+      "name": "Puppet Orc Prince Kragnar"
+    },
+    {
+      "id": "585",
+      "name": "The Beastbinder Goblin Gnibz"
+    },
+    {
+      "id": "586",
+      "name": "Mimic Sword"
+    },
+    {
+      "id": "587",
+      "name": "Undead Boneroot"
+    },
+    {
+      "id": "588",
+      "name": "Easter Bunny Girl Kasumi"
+    },
+    {
+      "id": "589",
+      "name": "Easter Bunny Girl Viora"
+    },
+    {
+      "id": "590",
+      "name": "Easter Sylph Pippin"
+    },
+    {
+      "id": "591",
+      "name": "Liquid Metal Slime"
+    },
+    {
+      "id": "592",
+      "name": "Ninja Slime"
+    },
+    {
+      "id": "593",
+      "name": "Doppelganger Slime"
+    },
+    {
+      "id": "594",
+      "name": "Slime Of Guilt Golgotha"
+    },
+    {
+      "id": "595",
+      "name": "Slime Golem Green"
+    },
+    {
+      "id": "596",
+      "name": "Otherworld Parasite Entlee"
+    },
+    {
+      "id": "597",
+      "name": "Summer Vampire Hunter Django"
+    },
+    {
+      "id": "598",
+      "name": "Black Oni Kokuyou"
+    },
+    {
+      "id": "599",
+      "name": "River Witch Jenny Greenteeth"
+    },
+    {
+      "id": "600",
+      "name": "Halloween Black Priest Steven"
+    },
+    {
+      "id": "601",
+      "name": "Halloween Whispering Magus Zatanna"
+    },
+    {
+      "id": "602",
+      "name": "Accursed Pharaoh Atem"
+    },
+    {
+      "id": "603",
+      "name": "Xmas Deer"
+    },
+    {
+      "id": "604",
+      "name": "Xmas Mythical Stag Kyris"
+    },
+    {
+      "id": "605",
+      "name": "Sheng Xiao Horse"
+    },
+    {
+      "id": "606",
+      "name": "Sheng Xiao Ox"
+    },
+    {
+      "id": "607",
+      "name": "Easter Bloom Reaper Persephone"
+    },
+    {
+      "id": "608",
+      "name": "Easter Gatekeeper Cerberus EX"
+    },
+    {
+      "id": "609",
+      "name": "Voidoll Widow Enuaen"
+    },
+    {
+      "id": "610",
+      "name": "Kael The Black Vow Blade"
+    },
+    {
+      "id": "611",
+      "name": "Summer Concierge Caelans"
+    },
+    {
+      "id": "612",
+      "name": "Summer Tidewatch Roka"
+    },
+    {
+      "id": "613",
+      "name": "Silver Dragon Altera"
+    },
+    {
+      "id": "614",
+      "name": "Gharzak The Black Banner"
+    },
+    {
+      "id": "615",
+      "name": "Mogrum The Siege Beast"
+    },
+    {
+      "id": "616",
+      "name": "Moonbound Dragon Slayer Lunexis"
+    },
+    {
+      "id": "617",
+      "name": "Blightbound Dragon Vharax"
+    },
+    {
+      "id": "618",
+      "name": "Halloween Pristine Succubus Lyselle"
+    },
+    {
+      "id": "619",
+      "name": "Halloween Undying Butcher Voorhees"
+    }
+  ]
+}
