@@ -18,7 +18,10 @@
       ],
       "eventPoint": "FireSeed",
       "miniGame": "TreasureGrid",
-      "descriptionKey": null
+      "descriptionKey": null,
+      "description": "A mysterious blaze has erupted across the land, leaving scorched paths in its wake. Drawn to the spreading flames, powerful creatures have begun to gather—some feeding on the inferno, others seemingly trying to contain it. No one knows what first ignited the fire, but one thing is certain: something is waiting at its heart.",
+      "eventPointLabel": "Fire Seed",
+      "miniGameLabel": "Treasure Grid"
     },
     {
       "id": "isekai-event-2",
@@ -32,7 +35,10 @@
       ],
       "eventPoint": "FireSeed",
       "miniGame": "FortuneDoors",
-      "descriptionKey": null
+      "descriptionKey": null,
+      "description": null,
+      "eventPointLabel": "Fire Seed",
+      "miniGameLabel": "Fortune Doors"
     },
     {
       "id": "isekai-event-3",
@@ -46,11 +52,14 @@
       ],
       "eventPoint": "FireSeed",
       "miniGame": "TreasureGrid",
-      "descriptionKey": null
+      "descriptionKey": null,
+      "description": null,
+      "eventPointLabel": "Fire Seed",
+      "miniGameLabel": "Treasure Grid"
     },
     {
       "id": "isekai-event-4",
-      "title": "Clash Of Convictions",
+      "title": "Clash of Convictions",
       "sourceTitle": "ClashOfConvictions",
       "type": "VesselEvent",
       "startDate": "2026-10-15",
@@ -61,7 +70,10 @@
       ],
       "eventPoint": "ConvictionShard",
       "miniGame": "TreasureGrid",
-      "descriptionKey": "ClashOfConvictionsDescription"
+      "descriptionKey": "ClashOfConvictionsDescription",
+      "description": "Skeleton Mage Mabon and Skeleton Knight Baron once fought side by side to protect their kingdom. But when a forbidden spell saved their comrades at a terrible cost, their beliefs began to clash. One chose to preserve their lives, while the other sought to free them from eternal suffering. Now, as the fallen soldiers begin to lose control, the two former allies find themselves on opposing sides once more.",
+      "eventPointLabel": "Conviction Shard",
+      "miniGameLabel": "Treasure Grid"
     }
   ]
 }
