@@ -5,28 +5,49 @@
 
 /* Expandable app showcase: does not affect Games pages. */
 .app-product{margin:28px 0;background:var(--panel);border:1px solid var(--line);border-radius:22px;overflow:hidden}.app-summary{display:grid;grid-template-columns:minmax(0,1.14fr) minmax(0,.86fr);min-height:410px}.app-media{position:relative;background:#101725;min-height:380px}.app-media .hero-art{height:100%;min-height:380px;border:0;border-radius:0;gap:clamp(8px,1.5vw,18px)}.media-tag{position:absolute;bottom:24px;left:26px;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--gold);font-weight:750}.app-overview{padding:clamp(24px,4vw,54px);display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:17px}.app-overview h2{font-size:clamp(29px,3.5vw,50px);letter-spacing:-.04em;line-height:1.08;margin:0}.app-overview .desc{max-width:510px;color:var(--dim);margin:0}.app-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.app-actions .btn,.expand-btn,.video-btn{font:inherit;font-size:13px;font-weight:750;border-radius:10px;padding:11px 17px;min-height:44px;text-decoration:none;cursor:pointer;margin:0}.expand-btn{background:var(--gold);color:#171923;border:1px solid var(--gold)}.expand-btn:hover{background:#ffdd9e}.app-actions .btn{color:var(--fg);border:1px solid #ffffff40;background:#ffffff0d}.app-actions .btn:hover{background:#ffffff22}.expand-arrow{display:inline-block;margin-left:7px;transition:transform .2s}.expand-btn[aria-expanded=true] .expand-arrow{transform:rotate(180deg)}.app-details{border-top:1px solid var(--line);padding:clamp(20px,3vw,40px)}.app-details[hidden],.video-frame[hidden]{display:none}.details-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:20px}.details-heading h2{margin:6px 0 0}.video-btn{border:1px solid #e9c48a80;color:var(--gold);background:transparent}.video-btn:hover{background:#e9c48a15}.video-frame{background:#080b12;border:1px solid var(--line);border-radius:16px;margin:0 auto 24px;max-width:420px;padding:12px}.video-frame iframe{display:block;aspect-ratio:9/16;width:100%;border:0;border-radius:9px}.app-details .access{margin-top:16px}.app-details .features{grid-template-columns:repeat(3,minmax(0,1fr))}.app-product button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}@media(max-width:850px){.app-summary{grid-template-columns:1fr}.app-media,.app-media .hero-art{min-height:260px}.app-overview{padding:26px}.app-details .features{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.app-media,.app-media .hero-art{min-height:210px}.app-details .features{grid-template-columns:1fr}.app-overview h2{font-size:32px}.media-tag{left:20px;bottom:18px}}
+
+/* Game-card proportions for Apps; games homepage is unchanged. */
+.app-product .app-summary{grid-template-columns:minmax(0,1.14fr) minmax(0,.86fr);min-height:490px}
+.app-product .app-media{background:#05070c;min-height:490px;position:relative;display:flex;justify-content:center;align-items:center;overflow:hidden}
+.app-video-media iframe{display:block;height:100%;width:100%;min-height:490px;border:0;background:#000}
+.app-video-caption{position:absolute;left:24px;bottom:18px;color:#fff;font-size:11px;text-transform:uppercase;letter-spacing:.12em;pointer-events:none;text-shadow:0 2px 6px #000}
+.app-overview{gap:19px}.app-overview .desc{max-width:510px}
+.app-actions .btn.primary-action{background:var(--gold);border-color:var(--gold);color:#171923}
+.app-actions .btn.primary-action:hover{background:#ffdd9e}
+.app-actions .expand-btn{background:#ffffff0d;border:1px solid #ffffff40;color:var(--fg)}
+.app-actions .expand-btn:hover{background:#ffffff22}
+.app-mini{border-top:1px solid var(--line);padding-top:17px;display:grid;gap:10px;width:100%}
+.app-mini-head{font-weight:750;font-size:13px}
+.app-mini-panel{border:1px solid #ffffff20;background:#ffffff06;border-radius:12px;padding:13px;font-size:12px;color:var(--dim);line-height:1.65}
+@media(max-width:850px){.app-product .app-summary{grid-template-columns:1fr;min-height:0}.app-product .app-media,.app-video-media iframe{min-height:340px;height:340px}}
+@media(max-width:520px){.app-product .app-media,.app-video-media iframe{min-height:280px;height:280px}.app-overview{padding:26px}}
 </style></head>
 <body><header class="site-header"><div class="site-nav"><a class="site-brand" href="./index.html">AUBJECTIVE TECHNOLOGY LTD.</a><nav class="site-links" aria-label="Main navigation"><a href="./index.html#games">Games</a><a href="./apps.html">Apps</a><a href="./about.html">About Us</a></nav></div></header>
 <main><div class="sub">Apps &amp; Tools</div><h1>Creative tools for every moment.</h1><p class="muted">Explore applications designed to support creativity, expression and everyday experiences.</p>
 <article class="app-product" id="padvia" aria-labelledby="padvia-title">
   <div class="app-summary">
-    <div class="app-media">
-      <div class="hero-art" role="img" aria-label="Abstract ambient sound pads"><div class="pad"></div><div class="pad"></div><div class="pad"></div><div class="pad"></div><div class="pad"></div></div>
-      <span class="media-tag">Ambient music · Android</span>
+    <div class="app-media app-video-media">
+      <iframe title="Padvia - Ambient Pads demonstration" loading="lazy" src="https://www.youtube-nocookie.com/embed/-0J7gkcISBU?playsinline=1&amp;rel=0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <span class="app-video-caption">Padvia · App demo</span>
     </div>
     <div class="app-overview">
-      <div class="sub">APP · Music &amp; creativity</div>
+      <div class="sub">CREATE YOUR ATMOSPHERE</div>
       <h2 id="padvia-title">Padvia - Ambient Pads</h2>
-      <p class="desc">Give every moment a musical atmosphere. Layer up to three sounds, play chords, and create ambient music for worship, prayer, rehearsal, songwriting and quiet creative sessions.</p>
+      <p class="desc">Give every moment a musical atmosphere. Padvia is a hands-on ambient pad player for worship, prayer, rehearsal, songwriting and quiet creative sessions. Tap a chord, blend up to three layers, and let the sound continue while you focus on the moment.</p>
       <div class="app-actions">
-        <button class="expand-btn" type="button" aria-expanded="false" aria-controls="padvia-details">Explore app <span class="expand-arrow" aria-hidden="true">⌄</span></button>
-        <a class="btn" href="https://play.google.com/store/apps/details?id=com.aubjective.padvia" target="_blank" rel="noopener noreferrer">Google Play ↗</a>
+        <a class="btn primary-action" href="https://play.google.com/store/apps/details?id=com.aubjective.padvia" target="_blank" rel="noopener noreferrer">Get the App ↗</a>
+        <button class="expand-btn" type="button" aria-expanded="false" aria-controls="padvia-details">Explore App <span class="expand-arrow" aria-hidden="true">⌄</span></button>
+      </div>
+      <div class="app-mini">
+        <div class="app-mini-head">Key Features</div>
+        <div class="app-mini-panel">20 sound families · 16 built-in presets · Major &amp; minor chords in all 12 keys · Up to 3 sound layers · Song setlists</div>
+        <div class="app-mini-head">More Information</div>
+        <div class="app-mini-panel">Android · Free to start · Prepared sounds play offline · English &amp; Simplified Chinese · No subscription</div>
       </div>
     </div>
   </div>
   <div id="padvia-details" class="app-details" hidden>
-    <div class="details-heading"><div><div class="sub">Discover Padvia</div><h2>Sound, shaped your way.</h2></div><button type="button" class="video-btn" aria-expanded="false" aria-controls="padvia-video">▶ Watch demo</button></div>
-    <div id="padvia-video" class="video-frame" hidden><iframe title="Padvia Ambient Pads demonstration" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" data-src="https://www.youtube-nocookie.com/embed/-0J7gkcISBU?playsinline=1&amp;rel=0"></iframe></div>
+    <div class="details-heading"><div><div class="sub">Discover Padvia</div><h2>Sound, shaped your way.</h2></div></div>
     <section class="features" aria-label="Padvia features">
 <article class="card"><h3>Play with confidence</h3><p>Choose major or minor chords in all 12 keys. Hold a key for one second to sustain it while playing other chords. Blend up to three layers, set their levels and fades, and expand Live keys for bigger touch targets, including landscape.</p></article>
 <article class="card"><h3>Find your sound</h3><p>Explore 20 sound families and 16 built-in presets, from soft piano and voices to bowed textures, organ, glassy tones and nature ambience. Save custom mixes and favorite sounds.</p></article>
@@ -43,23 +64,11 @@
 (function(){
   const button=document.querySelector('#padvia .expand-btn');
   const details=document.getElementById('padvia-details');
-  const videoButton=document.querySelector('#padvia .video-btn');
-  const video=document.getElementById('padvia-video');
-  const frame=video.querySelector('iframe');
-  function closeVideo(){frame.removeAttribute('src');video.hidden=true;videoButton.setAttribute('aria-expanded','false');videoButton.textContent='▶ Watch demo';}
   button.addEventListener('click',()=>{
     const open=button.getAttribute('aria-expanded')!=='true';
     button.setAttribute('aria-expanded',String(open));
     details.hidden=!open;
-    button.firstChild.textContent=open?'Hide details ':'Explore app ';
-    if(!open)closeVideo();
-  });
-  videoButton.addEventListener('click',()=>{
-    const open=video.hidden;
-    video.hidden=!open;
-    videoButton.setAttribute('aria-expanded',String(open));
-    videoButton.textContent=open?'■ Close demo':'▶ Watch demo';
-    if(open)frame.src=frame.dataset.src;else frame.removeAttribute('src');
+    button.firstChild.textContent=open?'Hide Details ':'Explore App ';
   });
 })();
 </script></body></html>
