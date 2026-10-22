@@ -9,7 +9,7 @@
 /* Game-card proportions for Apps; games homepage is unchanged. */
 .app-product .app-summary{grid-template-columns:minmax(0,1.14fr) minmax(0,.86fr);min-height:490px}
 .app-product .app-media{background:#05070c;min-height:490px;position:relative;display:flex;justify-content:center;align-items:center;overflow:hidden}
-.app-video-media iframe{display:block;height:100%;width:100%;min-height:490px;border:0;background:#000}
+.app-video-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.65)}.app-video-holder{position:absolute;inset:0;overflow:hidden}.app-video-holder iframe{position:absolute;width:max(100%,870px);height:max(100%,490px);left:50%;top:50%;transform:translate(-50%,-50%);border:0;background:#000}
 .app-video-caption{position:absolute;left:24px;bottom:18px;color:#fff;font-size:11px;text-transform:uppercase;letter-spacing:.12em;pointer-events:none;text-shadow:0 2px 6px #000}
 .app-overview{gap:19px}.app-overview .desc{max-width:510px}
 .app-actions .btn.primary-action{background:var(--gold);border-color:var(--gold);color:#171923}
@@ -19,15 +19,15 @@
 .app-mini{border-top:1px solid var(--line);padding-top:17px;display:grid;gap:10px;width:100%}
 .app-mini-head{font-weight:750;font-size:13px}
 .app-mini-panel{border:1px solid #ffffff20;background:#ffffff06;border-radius:12px;padding:13px;font-size:12px;color:var(--dim);line-height:1.65}
-@media(max-width:850px){.app-product .app-summary{grid-template-columns:1fr;min-height:0}.app-product .app-media,.app-video-media iframe{min-height:340px;height:340px}}
-@media(max-width:520px){.app-product .app-media,.app-video-media iframe{min-height:280px;height:280px}.app-overview{padding:26px}}
-</style></head>
+@media(max-width:850px){.app-product .app-summary{grid-template-columns:1fr;min-height:0}.app-product .app-media{min-height:340px;height:340px}.app-video-holder iframe{width:max(100%,600px);height:max(100%,340px)}}
+@media(max-width:520px){.app-product .app-media{min-height:280px;height:280px}.app-video-holder iframe{width:max(100%,500px);height:max(100%,280px)}.app-overview{padding:26px}}
+.app-video-media .manual-video-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:4;border:1px solid #e9c48a;background:#111827ee;color:#e9c48a;padding:12px 18px;border-radius:9px;cursor:pointer;white-space:nowrap}.app-video-media .manual-video-play:focus-visible{outline:3px solid #e9c48a;outline-offset:3px}</style></head>
 <body><header class="site-header"><div class="site-nav"><a class="site-brand" href="./index.html">AUBJECTIVE TECHNOLOGY LTD.</a><nav class="site-links" aria-label="Main navigation"><a href="./index.html#games">Games</a><a href="./apps.html">Apps</a><a href="./about.html">About Us</a></nav></div></header>
 <main><div class="sub">Apps &amp; Tools</div><h1>Creative tools for every moment.</h1><p class="muted">Explore applications designed to support creativity, expression and everyday experiences.</p>
 <article class="app-product" id="padvia" aria-labelledby="padvia-title">
   <div class="app-summary">
     <div class="app-media app-video-media">
-      <iframe title="Padvia - Ambient Pads demonstration" loading="lazy" src="https://www.youtube-nocookie.com/embed/-0J7gkcISBU?playsinline=1&amp;rel=0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <img class="app-video-poster" src="https://i.ytimg.com/vi/-0J7gkcISBU/hqdefault.jpg" alt="Padvia demo preview" loading="lazy"><div class="app-video-holder" data-youtube="-0J7gkcISBU" data-video-title="Padvia - Ambient Pads demonstration"></div>
       <span class="app-video-caption">Padvia · App demo</span>
     </div>
     <div class="app-overview">
@@ -71,4 +71,4 @@
     button.firstChild.textContent=open?'Hide Details ':'Explore App ';
   });
 })();
-</script></body></html>
+</script><script src="./js/product-video.js" defer></script></body></html>
