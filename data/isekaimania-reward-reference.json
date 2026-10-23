@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "game": "isekaimania",
+  "purpose": "Reference for decoding manually supplied gift-code rewards; not a publication source",
+  "specialValues": {
+    "Currency": {
+      "1": "Coin",
+      "2": "Diamond",
+      "3": "Skip Tickets"
+    },
+    "MaturityPotion": {
+      "1": "Small",
+      "2": "Medium",
+      "3": "Big"
+    },
+    "JobCrystal": "Value denotes matching rarity",
+    "GachaTicket": {
+      "1": "Character",
+      "2": "Monster",
+      "3": "Equipment",
+      "4": "Resources",
+      "5": "Event"
+    },
+    "Character": "Value is its ID",
+    "MonsterFrag": "Value is its ID",
+    "Item": "Value is its ID",
+    "Equipment": "Value is its ID"
+  }
+}
