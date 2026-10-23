@@ -27,7 +27,7 @@ const giftReward=(r)=>{
 };
 function giftCard(c){
  const article=element('article','portal-card coupon');
- article.append(element('div','portal-meta','REDEMPTION CODE'),element('h3','code-text',c.code),element('p','',c.rewards.map(giftReward).join(' · ')),element('p','portal-small','Expires '+dateLabel(c.expiryDate)));
+ article.append(element('div','portal-meta','REDEMPTION CODE'),element('h3','code-text',c.code),element('p','',c.rewards.map(giftReward).join(' · ')),element('p','portal-small',c.longTerm===true?'Ongoing':('Expires '+dateLabel(c.expiryDate))));
  const button=element('button','copy-code','Copy Code');
  button.type='button';
  button.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(c.code);button.textContent='Copied!';setTimeout(()=>button.textContent='Copy Code',1500)}catch(e){button.textContent='Unable to copy'}});
