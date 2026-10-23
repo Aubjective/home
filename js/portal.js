@@ -3,8 +3,8 @@ const today=()=>new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Kuala_Lump
 const safe=(s)=>String(s??'');
 const fetchData=async(path)=>{const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw Error(path);return (await r.json()).entries||[]};
 let characterNames={};
-const readable=(value)=>String(value??'').replace(/([a-z])([A-Z])/g,'$1 $2').replace(/[_-]+/g,' ').replace(/\\s+/g,' ').trim();
-const dateLabel=(value)=>{if(!value)return '';const match=String(value).match(/^(\\d{4})-(\\d{2})-(\\d{2})$/);if(!match)return '';return new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(Date.UTC(+match[1],+match[2]-1,+match[3])));};
+const readable=(value)=>String(value??'').replace(/([a-z])([A-Z])/g,'$1 $2').replace(/[_-]+/g,' ').replace(/\s+/g,' ').trim();
+const dateLabel=(value)=>{if(!value)return '';const match=String(value).match(/^(\d{4})-(\d{2})-(\d{2})$/);if(!match)return '';return new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(Date.UTC(+match[1],+match[2]-1,+match[3])));};
 const dateRange=(a,b)=>[dateLabel(a),dateLabel(b)].filter(Boolean).join(' — ');
 const reward=(r)=>{const type=readable(r.type)||'Reward';if(r.type==='Character')return characterNames[String(r.value)]?'Character: '+characterNames[String(r.value)]:'Character reward';const quantity=r.quantity??r.value;return quantity!==undefined&&quantity!==null&&quantity!==''?Number(quantity).toLocaleString('en-US')+' × '+type:type;};
 const publicLabel=(label)=>typeof label==='string'&&label.trim()?label.trim():null;
