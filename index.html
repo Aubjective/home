@@ -73,7 +73,7 @@ function escapeText(s){return String(s??'')}
   }
   for(const [key,game] of [['isekai','isekaimania'],['job','jobmania']]){
    const current=live.find(e=>e.game===game);
-   if(current){document.getElementById(key+'-event-title').textContent=current.title;document.getElementById(key+'-event-subtitle').textContent=current.status+' · '+current.startDate+' — '+current.endDate}
+   if(current){document.getElementById(key+'-event-title').textContent=current.title;document.getElementById(key+'-event-subtitle').textContent=current.status+' · '+new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric'}).format(new Date(current.startDate+'T00:00:00'))+' — '+new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric'}).format(new Date(current.endDate+'T00:00:00'))}
   }
  }catch(err){console.info('Event listing unavailable:',err)}
 })();
