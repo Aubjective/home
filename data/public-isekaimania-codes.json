@@ -23,7 +23,8 @@
           "variant": 4,
           "quantity": 10
         }
-      ]
+      ],
+      "longTerm": true
     },
     {
       "code": "REINCARNATE",
@@ -36,7 +37,8 @@
           "variant": 1,
           "quantity": 10
         }
-      ]
+      ],
+      "longTerm": true
     },
     {
       "code": "SUMMONME",
@@ -49,7 +51,8 @@
           "variant": 2,
           "quantity": 10
         }
-      ]
+      ],
+      "longTerm": true
     },
     {
       "code": "NEWLIFE",
@@ -62,7 +65,8 @@
           "variant": 1,
           "quantity": 10000
         }
-      ]
+      ],
+      "longTerm": true
     },
     {
       "code": "GODDESSGIFT",
@@ -75,7 +79,8 @@
           "variant": 2,
           "quantity": 1000
         }
-      ]
+      ],
+      "longTerm": true
     }
   ]
 }
