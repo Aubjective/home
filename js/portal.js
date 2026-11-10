@@ -54,7 +54,7 @@ function renderPage(game,prefix){load(game,prefix).then(d=>{const render=(id,ite
 function renderHome(game,key){load(game,'./').then(d=>{const evt=d.active[0]||d.upcoming[0];const title=document.getElementById(key+'-event-title'),sub=document.getElementById(key+'-event-subtitle');if(title&&sub){title.textContent=evt?evt.title:'No confirmed ongoing events';sub.textContent=evt?(dateRange(evt.startDate,evt.endDate)+(evt.eventPointLabel?' · '+evt.eventPointLabel:'')):'Visit Events & Announcements for details.'}}).catch(e=>console.warn('Home event information unavailable',e))}
 
 async function renderHub(prefix='./'){
- const root=document.getElementById('game-sections');if(!root)return;
+ const root=document.getElementById('game-sections');if(!root)return;root.replaceChildren();
  const registry=await fetch(prefix+'data/public-games.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Game registry unavailable');return r.json()});
  const d=today(),games=Array.isArray(registry.games)?registry.games:[];
  const mk=(tag,cl,tx)=>element(tag,cl,tx);
@@ -77,7 +77,7 @@ async function renderHub(prefix='./'){
   }
   parent.append(article);
  }
- const addGroup=(section,label,entries,kind,empty)=>{const area=mk('div','hub-group'),header=mk('h3','',label),grid=mk('div','portal-grid');area.append(header,grid);if(entries.length)entries.forEach(e=>appendCard(grid,e,kind));else grid.append(mk('p','portal-empty',empty));section.append(area)};
+ const addGroup=(section,label,entries,kind,empty)=>{const area=mk('div','hub-group'),header=mk('h3','',label),grid=mk('div','portal-grid');area.append(header,grid);if(entries.length)entries.forEach(e=>appendCard(grid,e,e.publishStatus==='spotlight'?'spotlight':kind));else grid.append(mk('p','portal-empty',empty));section.append(area)};
  for(const game of games){
   const section=mk('section','hub-game');section.id=game.id;
   const head=mk('div','hub-game-heading');head.append(mk('div','hub-game-name',game.name),mk('div','hub-subtitle',game.subtitle));
