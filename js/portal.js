@@ -65,7 +65,6 @@ async function renderHub(prefix='./'){
    const format=(r)=>r.type==='Character'?'Character ID '+r.value:r.type==='Crystal'?(Number(r.quantity).toLocaleString()+' Crystals'):r.type==='Essence'?(Number(r.quantity).toLocaleString()+' Essence'):giftReward(r);
    article.append(mk('p','',entry.rewards.map(format).join(' · ')));
    article.append(mk('p','portal-small',entry.featured?'Expires '+dateLabel(entry.expiryDate):'Ongoing code'));
-   if(entry.featured)article.append(mk('p','portal-small','Published from game sheet; successful redemption not independently tested.'));
    const button=mk('button','copy-code','Copy Code');button.type='button';
    button.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(entry.code);button.textContent='Copied!';setTimeout(()=>button.textContent='Copy Code',1500)}catch(error){button.textContent='Unable to copy'}});
    article.append(button);
@@ -101,7 +100,6 @@ async function renderHub(prefix='./'){
    if(past.length){const details=mk('details','hub-archive'),summary=mk('summary','','Past events ('+past.length+')'),grid=mk('div','portal-grid');past.forEach(e=>appendCard(grid,e,'event'));details.append(summary,grid);section.append(details)}
   }catch(error){section.append(mk('p','portal-empty','This game\'s announcements are temporarily unavailable.'));console.warn('Event hub game load failed',game.id,error)}
  }
- const note=mk('p','hub-note','Only explicitly approved ongoing codes are rotated; long expiry dates alone do not mean always available. Limited-time entries follow their published expiry. Redemption success and in-game availability are not independently verified.');root.append(note);
 }
 
 window.AubjectivePortal={renderPage,renderHome,renderHub};
