@@ -77,7 +77,7 @@ async function renderHub(prefix='./'){
   }
   parent.append(article);
  }
- const addGroup=(section,label,entries,kind,empty)=>{const area=mk('div','hub-group'),header=mk('h3','',label),grid=mk('div','portal-grid');area.append(header,grid);if(entries.length)entries.forEach(e=>appendCard(grid,e,e.publishStatus==='spotlight'?'spotlight':kind));else grid.append(mk('p','portal-empty',empty));section.append(area)};
+ const addGroup=(section,label,entries,kind)=>{if(!entries.length)return;const area=mk('div','hub-group'),header=mk('h3','',label),grid=mk('div','portal-grid');area.append(header,grid);entries.forEach(e=>appendCard(grid,e,e.publishStatus==='spotlight'?'spotlight':kind));section.append(area)};
  for(const game of games){
   const section=mk('section','hub-game');section.id=game.id;
   const head=mk('div','hub-game-heading');head.append(mk('div','hub-game-name',game.name),mk('div','hub-subtitle',game.subtitle));
@@ -87,20 +87,21 @@ async function renderHub(prefix='./'){
    const [eventData,codeData]=await Promise.all([fetch(prefix+'data/public-'+game.id+'-events.json',{cache:'no-store'}).then(r=>r.ok?r.json():{entries:[]}),fetch(prefix+'data/public-'+game.id+'-codes.json',{cache:'no-store'}).then(r=>r.ok?r.json():{entries:[]})]);
    const events=(eventData.entries||[]).filter(e=>e.published===true&&e.publishStatus!=='configuration-only');
    const codes=(codeData.entries||[]).filter(c=>c.published===true&&c.code&&(!c.startDate||c.startDate<=d)&&(!c.expiryDate||c.expiryDate>=d));
-   const spotlight=events.filter(e=>e.publishStatus==='spotlight');
+   const spotlight=events.filter(e=>e.publishStatus==='spotlight'&&e.eventKey==='Halloween'&&game.id==='jobmania'&&d<='2026-11-15');
    const active=events.filter(e=>e.startDate&&e.endDate&&e.startDate<=d&&e.endDate>=d);
    const upcoming=events.filter(e=>e.startDate&&e.startDate>d);
-   const featured=codes.filter(c=>c.featured===true);
-   const ongoingPool=codes.filter(c=>c.longTerm===true&&c.rotationEligible!==false&&!c.featured);
+   const featured=codes.filter(c=>c.featured===true&&c.publicationType==='limited'&&c.expiryDate&&c.expiryDate>=d);
+   // A distant expiration or longTerm flag alone never permits ongoing rotation.
+   const ongoingPool=codes.filter(c=>c.publicationType==='ongoing'&&c.rotationApproved===true&&c.rotationEligible===true&&!c.featured);
    const daily=dailySelection(ongoingPool,d,game.id,3);
-   addGroup(section,'Events & Announcements',[...spotlight,...active,...upcoming],'event','No published events at present.');
-   addGroup(section,'Featured Limited-Time Codes',featured,'code','No featured codes at present.');
-   addGroup(section,'Ongoing Codes · 3 Daily',daily,'code','No ongoing codes have been published.');
+   addGroup(section,'Featured Events & Announcements',[...spotlight,...active,...upcoming],'event');
+   addGroup(section,'Featured Limited-Time Codes',featured,'code');
+   addGroup(section,'Ongoing Codes · 3 Daily',daily,'code');
    const past=events.filter(e=>e.endDate&&e.endDate<d);
    if(past.length){const details=mk('details','hub-archive'),summary=mk('summary','','Past events ('+past.length+')'),grid=mk('div','portal-grid');past.forEach(e=>appendCard(grid,e,'event'));details.append(summary,grid);section.append(details)}
   }catch(error){section.append(mk('p','portal-empty','This game\'s announcements are temporarily unavailable.'));console.warn('Event hub game load failed',game.id,error)}
  }
- const note=mk('p','hub-note','Codes and campaign entries are based on published game data. Redemption success and in-game availability are not independently verified.');root.append(note);
+ const note=mk('p','hub-note','Only explicitly approved ongoing codes are rotated; long expiry dates alone do not mean always available. Limited-time entries follow their published expiry. Redemption success and in-game availability are not independently verified.');root.append(note);
 }
 
 window.AubjectivePortal={renderPage,renderHome,renderHub};
