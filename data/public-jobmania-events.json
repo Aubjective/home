@@ -4,6 +4,24 @@
   "disclaimer": "Game sheet records; code redemption and event availability are not independently verified. Event-pool configuration without dates is not a live event.",
   "entries": [
     {
+      "id": "job-halloween-2026-feature",
+      "title": "Halloween 2026",
+      "type": "event-spotlight",
+      "startDate": null,
+      "endDate": null,
+      "published": true,
+      "publishStatus": "spotlight",
+      "featured": [
+        "Halloween Pristine Succubus Lyselle",
+        "Halloween Undying Butcher Voorhees"
+      ],
+      "description": "Halloween treasure event and themed character gacha. Event dates have not been confirmed in the source; refer to the featured code for its separate expiry.",
+      "sourceVersion": "2.49.0",
+      "eventKey": "Halloween",
+      "drawCost": 35,
+      "currency": "EventPoint"
+    },
+    {
       "id": "job-gacha-1",
       "title": "Xmas Gacha",
       "type": "gacha",
