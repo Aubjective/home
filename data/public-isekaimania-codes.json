@@ -24,7 +24,11 @@
           "quantity": 10
         }
       ],
-      "longTerm": true
+      "longTerm": true,
+      "publicationType": "ongoing",
+      "rotationApproved": true,
+      "rotationEligible": true,
+      "approvalNote": "Explicitly approved existing Isekaimania ongoing-code rotation, 2026-11-10"
     },
     {
       "code": "REINCARNATE",
@@ -38,7 +42,11 @@
           "quantity": 10
         }
       ],
-      "longTerm": true
+      "longTerm": true,
+      "publicationType": "ongoing",
+      "rotationApproved": true,
+      "rotationEligible": true,
+      "approvalNote": "Explicitly approved existing Isekaimania ongoing-code rotation, 2026-11-10"
     },
     {
       "code": "SUMMONME",
@@ -52,7 +60,11 @@
           "quantity": 10
         }
       ],
-      "longTerm": true
+      "longTerm": true,
+      "publicationType": "ongoing",
+      "rotationApproved": true,
+      "rotationEligible": true,
+      "approvalNote": "Explicitly approved existing Isekaimania ongoing-code rotation, 2026-11-10"
     },
     {
       "code": "NEWLIFE",
@@ -66,7 +78,11 @@
           "quantity": 10000
         }
       ],
-      "longTerm": true
+      "longTerm": true,
+      "publicationType": "ongoing",
+      "rotationApproved": true,
+      "rotationEligible": true,
+      "approvalNote": "Explicitly approved existing Isekaimania ongoing-code rotation, 2026-11-10"
     },
     {
       "code": "GODDESSGIFT",
@@ -80,7 +96,11 @@
           "quantity": 1000
         }
       ],
-      "longTerm": true
+      "longTerm": true,
+      "publicationType": "ongoing",
+      "rotationApproved": true,
+      "rotationEligible": true,
+      "approvalNote": "Explicitly approved existing Isekaimania ongoing-code rotation, 2026-11-10"
     },
     {
       "code": "SkeletonsEVENT",
@@ -106,7 +126,9 @@
           "quantity": 5
         }
       ],
-      "note": "Limited-time reward code; redemption not independently tested."
+      "note": "Limited-time reward code; redemption not independently tested.",
+      "publicationType": "limited",
+      "rotationApproved": false
     }
   ]
 }
