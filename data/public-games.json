@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "games": [
+    {
+      "id": "jobmania",
+      "name": "Jobmania",
+      "subtitle": "Eternal Dungeon",
+      "wiki": "https://aubjective.github.io/jobmania/"
+    },
+    {
+      "id": "isekaimania",
+      "name": "Isekaimania",
+      "subtitle": "Overworld RPG",
+      "wiki": "https://aubjective.github.io/isekaimania/"
+    }
+  ]
+}
