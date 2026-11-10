@@ -24,7 +24,9 @@
           "quantity": 100000
         }
       ],
-      "note": "Character ID 427; code expiry is distinct from the unconfirmed event dates."
+      "note": "Character ID 427; code expiry is distinct from the unconfirmed event dates.",
+      "publicationType": "limited",
+      "rotationApproved": false
     }
   ]
 }
