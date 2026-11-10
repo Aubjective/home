@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "game": "jobmania",
+  "disclaimer": "Published seasonal code from the Jobmania Database. Redemption not independently tested.",
+  "entries": [
+    {
+      "code": "HALLOWEEN26",
+      "expiryDate": "2026-11-15",
+      "published": true,
+      "featured": true,
+      "rotationEligible": false,
+      "source": "Jobmania Database / Redemption Codes / ID 95",
+      "rewards": [
+        {
+          "type": "Character",
+          "value": 427
+        },
+        {
+          "type": "Crystal",
+          "quantity": 1000
+        },
+        {
+          "type": "Essence",
+          "quantity": 100000
+        }
+      ],
+      "note": "Character ID 427; code expiry is distinct from the unconfirmed event dates."
+    }
+  ]
+}
