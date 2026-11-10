@@ -87,7 +87,7 @@ async function renderHub(prefix='./'){
    const [eventData,codeData]=await Promise.all([fetch(prefix+'data/public-'+game.id+'-events.json',{cache:'no-store'}).then(r=>r.ok?r.json():{entries:[]}),fetch(prefix+'data/public-'+game.id+'-codes.json',{cache:'no-store'}).then(r=>r.ok?r.json():{entries:[]})]);
    const events=(eventData.entries||[]).filter(e=>e.published===true&&e.publishStatus!=='configuration-only');
    const codes=(codeData.entries||[]).filter(c=>c.published===true&&c.code&&(!c.startDate||c.startDate<=d)&&(!c.expiryDate||c.expiryDate>=d));
-   const spotlight=events.filter(e=>e.publishStatus==='spotlight'&&e.eventKey==='Halloween'&&game.id==='jobmania'&&d<='2026-11-15');
+   const spotlight=events.filter(e=>e.publishStatus==='spotlight'&&e.displayUntil&&d<=e.displayUntil&&(!e.displayFrom||d>=e.displayFrom));
    const active=events.filter(e=>e.startDate&&e.endDate&&e.startDate<=d&&e.endDate>=d);
    const upcoming=events.filter(e=>e.startDate&&e.startDate>d);
    const featured=codes.filter(c=>c.featured===true&&c.publicationType==='limited'&&c.expiryDate&&c.expiryDate>=d);
