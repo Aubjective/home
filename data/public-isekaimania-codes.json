@@ -81,6 +81,32 @@
         }
       ],
       "longTerm": true
+    },
+    {
+      "code": "SkeletonsEVENT",
+      "expiryDate": "2026-11-15",
+      "published": true,
+      "featured": true,
+      "rotationEligible": false,
+      "source": "Isekaimania Sheets / GiftCodes / ID 30",
+      "rewards": [
+        {
+          "type": "GachaTicket",
+          "variant": 1,
+          "quantity": 5
+        },
+        {
+          "type": "GachaTicket",
+          "variant": 2,
+          "quantity": 5
+        },
+        {
+          "type": "GachaTicket",
+          "variant": 2,
+          "quantity": 5
+        }
+      ],
+      "note": "Limited-time reward code; redemption not independently tested."
     }
   ]
 }
