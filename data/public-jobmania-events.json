@@ -19,7 +19,9 @@
       "sourceVersion": "2.49.0",
       "eventKey": "Halloween",
       "drawCost": 35,
-      "currency": "EventPoint"
+      "currency": "EventPoint",
+      "displayUntil": "2026-11-15",
+      "displayBasis": "Editorial spotlight window matching the Halloween code expiry; not a confirmed game event end date."
     },
     {
       "id": "job-gacha-1",
