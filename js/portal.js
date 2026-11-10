@@ -52,5 +52,56 @@ return{
 function eventCard(e){const outer=card(e.title,dateRange(e.startDate,e.endDate),e.description||('A '+readable(e.type||'special').toLowerCase()+' featuring '+(e.featured||[]).join(', ')+'.'),'event-banner');if(e.featured&&e.featured.length)outer.append(element('p','portal-small','Featured: '+e.featured.join(', ')));if(e.eventPointLabel||e.eventPoint)outer.append(element('p','portal-small','Event currency: '+(publicLabel(e.eventPointLabel)||'Event currency')));if(e.miniGameLabel||e.miniGame)outer.append(element('p','portal-small','Activity: '+(publicLabel(e.miniGameLabel)||'Special activity')));return outer}
 function renderPage(game,prefix){load(game,prefix).then(d=>{const render=(id,items,fn,empty)=>{const box=document.getElementById(id);if(!box)return;box.replaceChildren();if(!items.length)box.append(element('p','portal-empty',empty));else items.forEach(x=>box.append(fn(x)))};render('ongoing-events',d.active,eventCard,'No ongoing events with confirmed dates.');render('upcoming-events',d.upcoming,eventCard,'No upcoming events announced.');render('past-events',d.past,eventCard,'No past events recorded.');render('limited-codes',d.codes,giftCard,'No published redemption codes available.');}).catch(e=>console.warn('Portal content unavailable',e))}
 function renderHome(game,key){load(game,'./').then(d=>{const evt=d.active[0]||d.upcoming[0];const title=document.getElementById(key+'-event-title'),sub=document.getElementById(key+'-event-subtitle');if(title&&sub){title.textContent=evt?evt.title:'No confirmed ongoing events';sub.textContent=evt?(dateRange(evt.startDate,evt.endDate)+(evt.eventPointLabel?' · '+evt.eventPointLabel:'')):'Visit Events & Announcements for details.'}}).catch(e=>console.warn('Home event information unavailable',e))}
-window.AubjectivePortal={renderPage,renderHome};
+
+async function renderHub(prefix='./'){
+ const root=document.getElementById('game-sections');if(!root)return;
+ const registry=await fetch(prefix+'data/public-games.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Game registry unavailable');return r.json()});
+ const d=today(),games=Array.isArray(registry.games)?registry.games:[];
+ const mk=(tag,cl,tx)=>element(tag,cl,tx);
+ function appendCard(parent,entry,kind){
+  const article=mk('article','portal-card '+(kind==='code'?'coupon':kind==='spotlight'?'event-banner':''));
+  if(kind==='code'){
+   article.append(mk('div','portal-meta',entry.featured?'FEATURED · LIMITED-TIME CODE':'ONGOING CODE'),mk('h3','code-text',entry.code));
+   const format=(r)=>r.type==='Character'?'Character ID '+r.value:r.type==='Crystal'?(Number(r.quantity).toLocaleString()+' Crystals'):r.type==='Essence'?(Number(r.quantity).toLocaleString()+' Essence'):giftReward(r);
+   article.append(mk('p','',entry.rewards.map(format).join(' · ')));
+   article.append(mk('p','portal-small',entry.featured?'Expires '+dateLabel(entry.expiryDate):'Ongoing code'));
+   if(entry.featured)article.append(mk('p','portal-small','Published from game sheet; successful redemption not independently tested.'));
+   const button=mk('button','copy-code','Copy Code');button.type='button';
+   button.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(entry.code);button.textContent='Copied!';setTimeout(()=>button.textContent='Copy Code',1500)}catch(error){button.textContent='Unable to copy'}});
+   article.append(button);
+  }else{
+   article.append(mk('div','portal-meta',kind==='spotlight'?'EVENT SPOTLIGHT · DATES UNCONFIRMED':dateRange(entry.startDate,entry.endDate)),mk('h3','',entry.title),mk('p','',entry.description||''));
+   if(entry.featured?.length)article.append(mk('p','portal-small','Featured: '+entry.featured.join(', ')));
+   if(entry.eventPointLabel)article.append(mk('p','portal-small','Event currency: '+entry.eventPointLabel));
+   if(entry.miniGameLabel)article.append(mk('p','portal-small','Activity: '+entry.miniGameLabel));
+  }
+  parent.append(article);
+ }
+ const addGroup=(section,label,entries,kind,empty)=>{const area=mk('div','hub-group'),header=mk('h3','',label),grid=mk('div','portal-grid');area.append(header,grid);if(entries.length)entries.forEach(e=>appendCard(grid,e,kind));else grid.append(mk('p','portal-empty',empty));section.append(area)};
+ for(const game of games){
+  const section=mk('section','hub-game');section.id=game.id;
+  const head=mk('div','hub-game-heading');head.append(mk('div','hub-game-name',game.name),mk('div','hub-subtitle',game.subtitle));
+  if(game.wiki){const a=mk('a','portal-link','Game Wiki');a.href=game.wiki;a.target='_blank';a.rel='noopener noreferrer';head.append(a)}
+  section.append(head);root.append(section);
+  try{
+   const [eventData,codeData]=await Promise.all([fetch(prefix+'data/public-'+game.id+'-events.json',{cache:'no-store'}).then(r=>r.ok?r.json():{entries:[]}),fetch(prefix+'data/public-'+game.id+'-codes.json',{cache:'no-store'}).then(r=>r.ok?r.json():{entries:[]})]);
+   const events=(eventData.entries||[]).filter(e=>e.published===true&&e.publishStatus!=='configuration-only');
+   const codes=(codeData.entries||[]).filter(c=>c.published===true&&c.code&&(!c.startDate||c.startDate<=d)&&(!c.expiryDate||c.expiryDate>=d));
+   const spotlight=events.filter(e=>e.publishStatus==='spotlight');
+   const active=events.filter(e=>e.startDate&&e.endDate&&e.startDate<=d&&e.endDate>=d);
+   const upcoming=events.filter(e=>e.startDate&&e.startDate>d);
+   const featured=codes.filter(c=>c.featured===true);
+   const ongoingPool=codes.filter(c=>c.longTerm===true&&c.rotationEligible!==false&&!c.featured);
+   const daily=dailySelection(ongoingPool,d,game.id,3);
+   addGroup(section,'Events & Announcements',[...spotlight,...active,...upcoming],'event','No published events at present.');
+   addGroup(section,'Featured Limited-Time Codes',featured,'code','No featured codes at present.');
+   addGroup(section,'Ongoing Codes · 3 Daily',daily,'code','No ongoing codes have been published.');
+   const past=events.filter(e=>e.endDate&&e.endDate<d);
+   if(past.length){const details=mk('details','hub-archive'),summary=mk('summary','','Past events ('+past.length+')'),grid=mk('div','portal-grid');past.forEach(e=>appendCard(grid,e,'event'));details.append(summary,grid);section.append(details)}
+  }catch(error){section.append(mk('p','portal-empty','This game\'s announcements are temporarily unavailable.'));console.warn('Event hub game load failed',game.id,error)}
+ }
+ const note=mk('p','hub-note','Codes and campaign entries are based on published game data. Redemption success and in-game availability are not independently verified.');root.append(note);
+}
+
+window.AubjectivePortal={renderPage,renderHome,renderHub};
 })();
