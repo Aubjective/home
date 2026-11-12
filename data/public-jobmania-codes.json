@@ -13,7 +13,8 @@
       "rewards": [
         {
           "type": "Character",
-          "value": 427
+          "value": 427,
+          "name": "Halloween Stein MK1"
         },
         {
           "type": "Crystal",
