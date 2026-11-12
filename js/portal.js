@@ -62,7 +62,7 @@ async function renderHub(prefix='./'){
   const article=mk('article','portal-card '+(kind==='code'?'coupon':kind==='spotlight'?'event-banner':''));
   if(kind==='code'){
    article.append(mk('div','portal-meta',entry.featured?'FEATURED · LIMITED-TIME CODE':'ONGOING CODE'),mk('h3','code-text',entry.code));
-   const format=(r)=>r.type==='Character'?'Character ID '+r.value:r.type==='Crystal'?(Number(r.quantity).toLocaleString()+' Crystals'):r.type==='Essence'?(Number(r.quantity).toLocaleString()+' Essence'):giftReward(r);
+   const format=(r)=>r.type==='Character'?(r.name||characterNames[String(r.value)]||'Character ID '+r.value):r.type==='Crystal'?(Number(r.quantity).toLocaleString()+' Crystals'):r.type==='Essence'?(Number(r.quantity).toLocaleString()+' Essence'):giftReward(r);
    article.append(mk('p','',entry.rewards.map(format).join(' · ')));
    article.append(mk('p','portal-small',entry.featured?'Expires '+dateLabel(entry.expiryDate):'Ongoing code'));
    const button=mk('button','copy-code','Copy Code');button.type='button';
