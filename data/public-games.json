@@ -12,6 +12,11 @@
       "name": "Isekaimania",
       "subtitle": "Overworld RPG",
       "wiki": "https://aubjective.github.io/isekaimania/"
+    },
+    {
+      "id": "drillermania",
+      "name": "Drillermania",
+      "subtitle": "Dig deep. Build big."
     }
   ]
 }
